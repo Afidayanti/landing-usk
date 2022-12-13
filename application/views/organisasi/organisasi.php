@@ -2,7 +2,7 @@
     <div class="row row-cols-1 row-cols-md-3 mt-5">
       <div class="col mb-4 mb-5 mb-5">
         <div class="cardto">
-        <img id="syaiful"  src="<?php echo base_url('assets/img/1 (5).png') ?>" class="card-img-top" alt="...">
+        <img id="syaiful"  src="<?php echo base_url('assets/img/1 (5).png') ?>" class="card-img-top" alt="lorem ipsum syaiful">
         </div>
           <h5 class="card-title">Dr. Syaifullah Muhammad, S.T., M.Eng.</h5>
           <p class="kataw">Ketua</p> 
@@ -15,7 +15,7 @@
       </div>
       <div class="col mb-4 mb-5">
         <div class="cardto">
-          <img id="muslim" src="<?php echo base_url('assets/img/1 (2).png ') ?>" class="card-img-top" alt="...">
+          <img id="muslim" src="<?php echo base_url('assets/img/1 (2).png ') ?>" class="card-img-top" alt="lorem ipsum muslim">
         </div>
           <h5 class="card-title">Muslim Amiren, M.InfoTech</h5>
           <p class="kataw">Secretary</p> 
@@ -27,7 +27,7 @@
           </span>
       </div><div class="col mb-4 mb-5">
         <div class="cardto">
-          <img id="juanda" src="<?php echo base_url('assets/img/1 (1).png ') ?>" class="card-img-top" alt="...">
+          <img id="juanda" src="<?php echo base_url('assets/img/1 (1).png ') ?>" class="card-img-top" alt="lorem ipsum juanda">
         </div>
           <h5 class="card-title">Dr. Ir. Juanda, S.TP., M.Sc.</h5>
           <p class="kataw">Kadiv. Produksi, Teknologi dan Inovasi</p> 
@@ -40,7 +40,7 @@
       </div>
       <div class="col mb-4 mb-5">
         <div class="cardto">
-          <img id="yossi" src="<?php echo base_url('assets/img/1 (9).png ') ?>" class="card-img-top" alt="...">
+          <img id="yossi" src="<?php echo base_url('assets/img/1 (9).png ') ?>" class="card-img-top" alt="lorem ipsum yossi">
         </div> 
           <h5 class="card-title">Dr. Yossi Diantimala, SE.Ak., M.Si.</h5>
           <p class="kataw">Kadiv. Administrasi, Keuangan dan Sumber Daya Alam </p>
@@ -53,7 +53,7 @@
       </div>
       <div class="col mb-4 mb-5">
         <div class="cardto">
-          <img id="fifi" src="<?php echo base_url('assets/img/1 (4).png ') ?>" class="card-img-top" alt="...">
+          <img id="fifi" src="<?php echo base_url('assets/img/1 (4).png ') ?>" class="card-img-top" alt="lorem ipsum fifi">
         </div>
           <h5 class="card-title">Fifi Yusmita, SE., M.Si</h5>
           <p class="kataw">Kadiv. Pengembangan Bisnis dan Kerja Sama</p>
@@ -66,7 +66,7 @@
       </div>
       <div class="col mb-4 mb-5">
         <div class="cardto">
-          <img id="ratna" src="<?php echo base_url('assets/img/1 (3).png ') ?>" class="card-img-top" alt="...">
+          <img id="ratna" src="<?php echo base_url('assets/img/1 (3).png ') ?>" class="card-img-top" alt="lorem ipsum ratna">
         </div>
           <h5 class="card-title">Dr. Ratna Mulyany, BACC, MSACC</h5>
           <p class="kataw">Kadiv. Hukum, Kerjasama dan Monev</p>
