@@ -10,7 +10,7 @@
             <div class="card-deck">
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/image 1 (1).png') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/AAC Dayan Dawood.jpg') ?>" height="260px" alt="Card image cap">
                         
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -24,17 +24,17 @@
                     <div class="card-body"> 
                         <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">USKPress</dd>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Percetakan dan penerbitan</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/image 2 (1).png') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/RS Prince Nayef.jpeg') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -46,19 +46,19 @@
                             </div>   
                     </div>
                     <div class="card-body"> 
-                        <dl class="row">
+                    <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">RS Pendidikan Prince Nayef</dd>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Kesehatan</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/unsplash_iZHzTKq810w.png') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/Klinik Pratama USK.jpg') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -70,13 +70,13 @@
                             </div>   
                     </div>
                     <div class="card-body"> 
-                        <dl class="row">
+                    <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Atsiri Research Center</dd>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Penelitian dan Pengembangan Nilam</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -84,7 +84,7 @@
             <div class="card-deck">
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/unsplash_i1mnFq5JeX8.png') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/Apotek Pendidikan USK.JPG') ?>" alt="Card image cap">
                         
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -96,19 +96,19 @@
                             </div> 
                     </div>
                     <div class="card-body"> 
-                        <dl class="row">
+                    <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">U-Konveksi</dd>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Konveksi Pakaian</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/unsplash_Af8ZjGMsHKQ.png') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/ARC USK.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -120,19 +120,19 @@
                             </div>   
                     </div>
                     <div class="card-body"> 
-                        <dl class="row">
+                    <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">USK Travel</dd>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Agent Perjalanan</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/unsplash_iZHzTKq810w.png') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/Career Development Center.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -144,13 +144,13 @@
                             </div>  
                     </div>
                     <div class="card-body"> 
-                        <dl class="row">
+                    <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">USK Mart</dd>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Penjualan dan Pendistribusian</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -158,7 +158,7 @@
             <div class="card-deck">
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/image 1 (1).png') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/AAC Dayan Dawood_2.JPG') ?>" alt="Card image cap">
                         
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -170,19 +170,19 @@
                             </div>   
                     </div>
                     <div class="card-body"> 
-                        <dl class="row">
+                    <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">USKPress</dd>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Percetakan dan penerbitan</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/image 2 (1).png') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/UPT Lab Terpadu.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -194,19 +194,19 @@
                             </div>   
                     </div>
                     <div class="card-body"> 
-                        <dl class="row">
+                    <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">RS Pendidikan Prince Nayef</dd>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Kesehatan</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/unsplash_iZHzTKq810w.png') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/Klinik Pratama USK_2.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -218,13 +218,13 @@
                             </div>   
                     </div>
                     <div class="card-body"> 
-                        <dl class="row">
+                    <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Atsiri Research Center</dd>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Penelitian dan Pengembangan Nilam</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -232,7 +232,7 @@
             <div class="card-deck">
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/unsplash_i1mnFq5JeX8.png') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/Labschool.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -244,19 +244,19 @@
                             </div>   
                     </div>
                     <div class="card-body"> 
-                        <dl class="row">
+                    <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">U-Konveksi</dd>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Konveksi Pakaian</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/unsplash_Af8ZjGMsHKQ.png') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/RS Hewan.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -268,19 +268,19 @@
                             </div>  
                     </div>
                     <div class="card-body"> 
-                        <dl class="row">
+                    <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">USK Travel</dd>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Agent Perjalanan</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/unsplash_iZHzTKq810w.png') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/UPT Bahasa.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -292,13 +292,88 @@
                             </div>   
                     </div>
                     <div class="card-body"> 
-                        <dl class="row">
+                    <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">USK Mart</dd>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Penjualan dan Pendistribusian</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                        </dl>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="card-deck">
+                <div class="card">
+                    <div class="containerbarunya">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/USK Mart.jpg') ?>" height="220px" alt="Card image cap">
+                         
+                            <div class="overlay">
+                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Faucibus lectus massa amet interdum cras justo, purus. 
+                                    Nunc magna massa quam erat tellus nec urna. 
+                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
+                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
+                                </div>
+                            </div>   
+                    </div>
+                    <div class="card-body"> 
+                    <dl class="row">
+                            <dt class="col-sm-4">Unit Bisnis</dt>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
+                            <dt class="col-sm-4">Jenis Usaha</dt>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
+                            <dt class="col-sm-4">Lokasi</dt>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                        </dl>
+                    </div> 
+                </div>
+                <div class="card">
+                    <div class="containerbarunya">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/USK Press.JPG') ?>" alt="Card image cap">
+                         
+                            <div class="overlay">
+                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Faucibus lectus massa amet interdum cras justo, purus. 
+                                    Nunc magna massa quam erat tellus nec urna. 
+                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
+                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
+                                </div>
+                            </div>  
+                    </div>
+                    <div class="card-body"> 
+                    <dl class="row">
+                            <dt class="col-sm-4">Unit Bisnis</dt>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
+                            <dt class="col-sm-4">Jenis Usaha</dt>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
+                            <dt class="col-sm-4">Lokasi</dt>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                        </dl>
+                    </div> 
+                </div>
+                <div class="card">
+                    <div class="containerbarunya">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/USK Qua.JPG') ?>" alt="Card image cap">
+                         
+                            <div class="overlay">
+                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Faucibus lectus massa amet interdum cras justo, purus. 
+                                    Nunc magna massa quam erat tellus nec urna. 
+                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
+                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
+                                </div>
+                            </div>   
+                    </div>
+                    <div class="card-body"> 
+                    <dl class="row">
+                            <dt class="col-sm-4">Unit Bisnis</dt>
+                            <dd class="col-sm-8">Lorem ipsum </dd>
+                            <dt class="col-sm-4">Jenis Usaha</dt>
+                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
+                            <dt class="col-sm-4">Lokasi</dt>
+                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -389,7 +464,8 @@
                                     <dd class="col-sm-9">Ruko 2 Lantai</dd>
                                     <dt class="col-sm-3">Spesifikasi</dt>
                                     <dd class="col-sm-9">2 Lantai pinggir jalan kota</dd>
-                                    <dt class="col-sm-3">Lokasi</dt>
+                                    <dt class="col-sm-3">Lokasi
+                                    </dt>
                                     <dd class="col-sm-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
                                 </dl>
                                 <button type="button" class="btn btnbarunya"><img src="<?php echo base_url('assets/img/wa2.png ') ?>"> Hubungi Kami</button> 

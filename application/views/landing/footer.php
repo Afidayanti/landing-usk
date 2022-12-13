@@ -30,13 +30,13 @@
               <a class="one" href="#!" class="text-dark"> Tentang Kami</a>
             </li>
             <li>
-              <a class="one" href="#!" class="text-dark">Struktur Organisasi</a>
+              <a class="one" href="<?php echo site_url('organisasi');?>" class="text-dark">Struktur Organisasi</a>
             </li>
             <li>
               <a class="one" href="#!" class="text-dark">Profil Pimpinan</a>
             </li>
             <li>
-              <a class="one" href="#!" class="text-dark">Unit Bisnis</a>
+              <a class="one" href="<?php echo site_url('bisnis');?>" class="text-dark">Unit Bisnis</a>
             </li>
           </ul>
         </div>
