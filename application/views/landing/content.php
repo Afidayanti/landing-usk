@@ -15,7 +15,7 @@ mx-auto d-block img-fluid" alt="...">
     </div> 
     <div class="card-deck">
       <div class="card">
-        <img class="card-img-top" src="<?php echo base_url('assets/img/Apotek Pendidikan USK.JPG') ?>" alt="Card image cap">
+        <img class="card-img-top" src="<?php echo base_url('assets/img/Apotek_Pendidikan_USK.jpg') ?>" alt="Card image cap">
         <div class="card-body"> 
           <dl class="row">
             <dt class="col-sm-4">Unit Bisnis</dt>
