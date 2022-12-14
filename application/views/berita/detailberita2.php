@@ -1,6 +1,6 @@
 <article>
 <div class="container p-5">
-    <img src="<?php echo base_url('assets/img/Rectangle 13 (2).png') ?>" class="rounded mx-auto d-block" alt="..." width="1000px" height="500px">
+    <img src="<?php echo base_url('assets/img/42.png') ?>" class="rounded mx-auto d-block" alt="..." width="1000px" height="500px">
     <h1 class="p-4 text-center">Amanah dan ARC-USK Banda Aceh Berdayakan Milenial Untuk Pengembangan Minyak Nilam</h1>
         <div class="row">
             <div class="col px-md-5">

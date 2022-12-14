@@ -10,7 +10,7 @@
             <div class="card-deck">
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/AAC Dayan Dawood.jpg') ?>" height="260px" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/24.jpg') ?>" height="260px" alt="Card image cap">
                         
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -34,7 +34,7 @@
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/RS Prince Nayef.jpeg') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/49.jpeg') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -58,7 +58,7 @@
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/Klinik Pratama USK.jpg') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/23.jpg') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -84,7 +84,7 @@
             <div class="card-deck">
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/Apotek Pendidikan USK.JPG') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/25.JPG') ?>" alt="Card image cap">
                         
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -108,7 +108,7 @@
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/ARC USK.JPG') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/26.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -132,7 +132,7 @@
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/Career Development Center.JPG') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/27.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -158,7 +158,7 @@
             <div class="card-deck">
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/AAC Dayan Dawood_2.JPG') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/28.JPG') ?>" alt="Card image cap">
                         
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -182,7 +182,7 @@
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/UPT Lab Terpadu.JPG') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/29.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -206,7 +206,7 @@
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/Klinik Pratama USK_2.JPG') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/30.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -232,7 +232,7 @@
             <div class="card-deck">
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/Labschool.JPG') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/33.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -256,7 +256,7 @@
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/RS Hewan.JPG') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/34.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -280,7 +280,7 @@
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/UPT Bahasa.JPG') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/35.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -307,7 +307,7 @@
             <div class="card-deck">
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/USK Mart.jpg') ?>" height="220px" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/36.jpg') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -331,7 +331,7 @@
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/USK Press.JPG') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/39.JPG') ?>" height="220px" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -355,7 +355,7 @@
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/USK Qua.JPG') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/40.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -393,7 +393,7 @@
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col mb-4">
                     <div class="card">
-                        <img src="<?php echo base_url('assets/img/unsplash_edZ_WxeUlWc.png ') ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo base_url('assets/img/55.png ') ?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <dl class="row">
                                     <dt class="col-sm-3">Unit Bisnis</dt>
@@ -409,7 +409,7 @@
                 </div>
                 <div class="col mb-4">
                     <div class="card">
-                        <img src="<?php echo base_url('assets/img/unsplash_oFweDg39ldw.png ') ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo base_url('assets/img/58.png ') ?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <dl class="row">
                                     <dt class="col-sm-3">Unit Bisnis</dt>
@@ -425,7 +425,7 @@
                 </div>
                 <div class="col mb-4">
                     <div class="card">
-                        <img src="<?php echo base_url('assets/img/unsplash_edZ_WxeUlWc.png ') ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo base_url('assets/img/55.png ') ?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <dl class="row">
                                     <dt class="col-sm-3">Unit Bisnis</dt>
@@ -441,7 +441,7 @@
                 </div>
                 <div class="col mb-4">
                     <div class="card">
-                        <img src="<?php echo base_url('assets/img/unsplash_oFweDg39ldw.png ') ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo base_url('assets/img/58.png ') ?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <dl class="row">
                                     <dt class="col-sm-3">Unit Bisnis</dt>
@@ -457,7 +457,7 @@
                 </div>
                 <div class="col mb-4">
                     <div class="card">
-                        <img src="<?php echo base_url('assets/img/unsplash_edZ_WxeUlWc.png ') ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo base_url('assets/img/55.png ') ?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <dl class="row">
                                     <dt class="col-sm-3">Unit Bisnis</dt>
@@ -474,7 +474,7 @@
                 </div>
                 <div class="col mb-4">
                     <div class="card">
-                        <img src="<?php echo base_url('assets/img/unsplash_oFweDg39ldw.png ') ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo base_url('assets/img/58.png ') ?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <dl class="row">
                                     <dt class="col-sm-3">Unit Bisnis</dt>

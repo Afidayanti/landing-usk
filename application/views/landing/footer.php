@@ -5,7 +5,7 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <img src="<?php echo base_url('assets/img/Logo_BPBU_USK_Waifu2x_2.png.png')?>" weight="252px" height="95px" alt="">
+          <img src="<?php echo base_url('assets/img/37.png')?>" weight="252px" height="95px" alt="">
   
           <ul class="list-unstyled mb-0">
             <li>

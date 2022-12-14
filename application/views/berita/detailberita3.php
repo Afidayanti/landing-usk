@@ -1,6 +1,6 @@
 <article>
 <div class="container p-5">
-    <img src="<?php echo base_url('assets/img/Rectangle 13 (1).png') ?>" class="rounded mx-auto d-block" alt="..." width="1000px" height="500px">
+    <img src="<?php echo base_url('assets/img/41.png') ?>" class="rounded mx-auto d-block" alt="..." width="1000px" height="500px">
     <h1 class="p-4">ARC USK Beri Pelatihan Produk Inovasi Nilam Kepada UMKM Makassar</h1>
         <div class="row">
             <div class="col px-md-5">

@@ -1,4 +1,4 @@
-<img src="<?php echo base_url('assets/img/header.png') ?>"  class="
+<img src="<?php echo base_url('assets/img/32.png') ?>"  class="
 mx-auto d-block img-fluid" alt="...">
   <div class="jumbotron">
     <div class="container">
@@ -15,7 +15,7 @@ mx-auto d-block img-fluid" alt="...">
     </div> 
     <div class="card-deck">
       <div class="card">
-        <img class="card-img-top" src="<?php echo base_url('assets/img/Apotek_Pendidikan_USK.jpg') ?>" alt="Card image cap">
+        <img class="card-img-top" src="<?php echo base_url('assets/img/27.JPG') ?>" alt="Card image cap">
         <div class="card-body"> 
           <dl class="row">
             <dt class="col-sm-4">Unit Bisnis</dt>
@@ -28,7 +28,7 @@ mx-auto d-block img-fluid" alt="...">
         </div> 
       </div> 
       <div class="card">
-        <img class="card-img-top" src="<?php echo base_url('assets/img/ARC USK.JPG') ?>" alt="Card image cap">
+        <img class="card-img-top" src="<?php echo base_url('assets/img/28.JPG') ?>" alt="Card image cap">
         <div class="card-body">
           <dl class="row">
             <dt class="col-sm-4">Unit Bisnis</dt>
@@ -41,7 +41,7 @@ mx-auto d-block img-fluid" alt="...">
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="<?php echo base_url('assets/img/Career Development Center.JPG') ?>" alt="Card image cap">
+        <img class="card-img-top" src="<?php echo base_url('assets/img/29.JPG') ?>" alt="Card image cap">
         <div class="card-body">
           <dl class="row">
           <dt class="col-sm-4">Unit Bisnis</dt>
@@ -64,7 +64,7 @@ mx-auto d-block img-fluid" alt="...">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero interdum sit maecenas adipiscing. Facilisis nascetur sapien vestibulum auctor dolor semper euismod. Scelerisque blandit enim porttitor cras purus. Suscipit sed mauris aliquam, amet porta nullam ut eros. Volutpat varius nulla hendrerit nullam ac facilisis. Tempus at a ullamcorper massa porttitor facilisis at risus. In elit euismod leo pharetra, faucibus viverra cursus phasellus. Amet, commodo pretium auctor scelerisque ipsum sit bibendum magna fermentum.</p>      
               <button type="button" class="btn btn-light"><img src="<?php echo base_url('assets/img/wa.png') ?>"> Kontak</button></div>
           <div class="col p-4 ml-5 pr-mr-5">
-          <img src="<?php echo base_url('assets/img/unsplash_OQMZwNd3ThU.png') ?>" alt="" class="img-fluid gam">
+          <img src="<?php echo base_url('assets/img/59.png') ?>" alt="" class="img-fluid gam">
         </div>
       </div> 
     </div>
@@ -77,7 +77,7 @@ mx-auto d-block img-fluid" alt="...">
   </div>  
   <div class="card-deck">
     <div class="card">
-      <img class="card-img-top" src="<?php echo base_url('assets/img/Rectangle 13.png') ?>" alt="Card image cap">
+      <img class="card-img-top" src="<?php echo base_url('assets/img/43.png') ?>" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-header"><a href="<?php echo site_url('berita/detail');?>">BSI Gandeng ARC USK Perkuat Budidaya Nilam Aceh</a></h5>
         <div class="row mx-md-n5 my-3">
@@ -98,7 +98,7 @@ mx-auto d-block img-fluid" alt="...">
          </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="<?php echo base_url('assets/img/Rectangle 13 (1).png') ?>" alt="Card image cap">
+        <img class="card-img-top" src="<?php echo base_url('assets/img/41.png') ?>" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-header"><a href="<?php echo site_url('berita/beritahu');?>">ARC USK BERI PELATIHAN PRODUK INOVASI NILAM KEPADA UMKM MAKASSAR</a></h5>
           <div class="row mx-md-n5 my-3">
@@ -119,7 +119,7 @@ mx-auto d-block img-fluid" alt="...">
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="<?php echo base_url('assets/img/Rectangle 13 (2).png') ?>" alt="Card image cap">
+        <img class="card-img-top" src="<?php echo base_url('assets/img/42.png') ?>" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-header"><a href="<?php echo site_url('berita/beri');?>">ARC-USK Banda Aceh berdayakan milenial untuk pengembangan minyak nilam</a></h5>
           <div class="row mx-md-n5 my-3">

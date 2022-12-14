@@ -1,6 +1,6 @@
     <article>
         <div class="container p-5">
-            <img src="<?php echo base_url('assets/img/Rectangle 28 (2).png ') ?>" class="rounded mx-auto d-block" alt="..." width="1000px" height="500px">
+            <img src="<?php echo base_url('assets/img/45.png ') ?>" class="rounded mx-auto d-block" alt="..." width="1000px" height="500px">
             <h1 class="p-4">BSI Gandeng ARC USK Perkuat Budidaya Nilam Aceh</h1>
                 <div class="row">
                     <div class="col px-md-5">

@@ -18,7 +18,7 @@
     <div class="tabcontent mt-5 active" id="BT"> 
       <div class="row">
         <div class="col-lg-8">
-          <img src="<?php echo base_url('assets/img/Rectangle 28 (2).png ') ?>" class="mx-auto" alt="..." width="820px" height="380px" style="border-top-right-radius: 30px">
+          <img src="<?php echo base_url('assets/img/45.png ') ?>" class="mx-auto" alt="..." width="820px" height="380px" style="border-top-right-radius: 30px">
         </div>
         <div class="col-lg-4">
           <div class="card-body">
@@ -44,7 +44,7 @@
       </div>
           <div class="card-deck">
             <div class="card">
-              <img src="<?php echo base_url('assets/img/Rectangle 13 (2).png ') ?>" class="card-img-top" src="..." alt="Card image cap">
+              <img src="<?php echo base_url('assets/img/42.png ') ?>" class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                   <div class="row mx-md-n5 my-3">
                     <div class="col px-md-5">
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="card">
-              <img src="<?php echo base_url('assets/img/Rectangle 13 (1).png ') ?>"  class="card-img-top" src="..." alt="Card image cap">
+              <img src="<?php echo base_url('assets/img/41.png ') ?>"  class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                   <div class="row mx-md-n5 my-3">
                     <div class="col px-md-5">
@@ -90,7 +90,7 @@
                 </div>
             </div>
             <div class="card">
-              <img src="<?php echo base_url('assets/img/Screenshot_4.png') ?>" width="100px" height="195px"  class="card-img-top" src="..." alt="Card image cap">
+              <img src="<?php echo base_url('assets/img/51.png') ?>" width="100px" height="195px"  class="card-img-top" src="..." alt="Card image cap">
                   <div class="card-body">
                     <div class="row mx-md-n5 my-3">
                       <div class="col px-md-5">
@@ -115,7 +115,7 @@
             <div class="col-lg-8">
               <div class="card-body">
                   <h5 class="card-title mb-4"><b>Perusahaan skin care Aceh binaan BRIN masuk semifinal China-ASEAN IEC</b></h5>
-                  <img src="<?php echo base_url('assets/img/Screenshot_3.png') ?>" class="card-img-top" src="..." alt="Card image cap" style="border-top-right-radius: 30px" width="820px" height="380px">
+                  <img src="<?php echo base_url('assets/img/50.png') ?>" class="card-img-top" src="..." alt="Card image cap" style="border-top-right-radius: 30px" width="820px" height="380px">
                   <div class="text-justify">
                     <p class="text-muted mt-4">
                     Banda Aceh (ANTARA) - Perusahaan perawatan kulit (skin care) lokal Aceh, PT Biona Ceudah Rupa binaan Badan Riset dan Inovasi Nasional (BRIN) dalam program PPBR (Perusahaan Pemula Berbasis Riset) masuk semifinal kompetisi China-ASEAN Innovation and Entrepreneurship Competition (CAIEC) bidang Bio-Medicine.</p>
@@ -167,7 +167,7 @@
             <div class="row">
               <div class="col-lg-8">
                 <div class="card-body">
-                    <img src="<?php echo base_url('assets/img/image 10.png ') ?>" class="card-img-top" src="..." alt="Card image cap" style="border-top-right-radius: 30px" width="820px" height="380px">
+                    <img src="<?php echo base_url('assets/img/22.png ') ?>" class="card-img-top" src="..." alt="Card image cap" style="border-top-right-radius: 30px" width="820px" height="380px">
                       <div class="row mx-md-n5 my-3">
                         <div class="col px-md-5">
                           <i><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
