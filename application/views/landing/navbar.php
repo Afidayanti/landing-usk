@@ -6,31 +6,32 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto"> 
-        <li class="nav-item dropdown active">
+    <ul class="navbar-nav ml-auto"> 
+        <lu class="nav-item dropdown active">
           <a class="nav-link two" role="button" data-toggle="dropdown" aria-expanded="false">
-            Tentang Kami
+           <b> About Us</b>
           </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="<?php echo site_url('visimisi');?>">Visi Misi</a>
+          <li class="dropdown-menu">
+            <a class="dropdown-item" href="<?php echo site_url('visimisi');?>"><b>Our Goals</b></a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="<?php echo site_url('organisasi');?>">Struktur Organisasi</a>
+            <a class="dropdown-item" href="<?php echo site_url('organisasi');?>"><b>Organizational Structure</b></a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="<?php echo site_url('bisnis');?>">Unit Bisnis</a>
+            <a class="dropdown-item" href="<?php echo site_url('bisnis');?>"><b>Business Unit</b></a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="<?php echo site_url('kerjasama');?>">
-              Kerjasama
+              <b>Partnership</b>
             </a>
-          </div>
+          </li>
+        </lu>
+        
+        <li class="nav-item">
+          <a class="nav-link two" href="<?php echo site_url('berita');?>"><b>News</b> </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link two" href="<?php echo site_url('berita');?>">Berita</a>
+          <a class="nav-link two" href="<?php echo site_url('kerjasama');?>"><b>Partnership</b></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link two" href="<?php echo site_url('kerjasama');?>">Kerjasama</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link two" href="<?php echo site_url('galeri');?>">Galeri</a>
+          <a class="nav-link two" href="<?php echo site_url('galeri');?>"><b>Gallery</b></a>
         </li> 
         <li>
           <form action="#">

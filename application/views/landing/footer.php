@@ -23,20 +23,20 @@
   
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0 my-3">
-          <h5 class="text-uppercase mb-0">PROFIL BISNIS </h5>
+          <h5 class="text-uppercase mb-0">BUSINESS PROFILE</h5>
   
           <ul class="list-unstyled">
             <li>
-              <a class="one" href="#!" class="text-dark"> Tentang Kami</a>
+              <a class="one" href="#!" class="text-dark"> About Us</a>
             </li>
             <li>
-              <a class="one" href="<?php echo site_url('organisasi');?>" class="text-dark">Struktur Organisasi</a>
+              <a class="one" href="<?php echo site_url('organisasi');?>" class="text-dark">Organizational Structure</a>
             </li>
             <li>
               <a class="one" href="#!" class="text-dark">Profil Pimpinan</a>
             </li>
             <li>
-              <a class="one" href="<?php echo site_url('bisnis');?>" class="text-dark">Unit Bisnis</a>
+              <a class="one" href="<?php echo site_url('bisnis');?>" class="text-dark">Business Unit</a>
             </li>
           </ul>
         </div>
