@@ -65,19 +65,19 @@
   
         <!--Grid column-->
         <div class="col-lg-2 col-md-6 my-3 py-4">
-          <h5 class="text-uppercase letter5">IKUTI KAMI</h5>
+          <h5 class="text-uppercase letter5 text-white">IKUTI KAMI</h5>
   
           <ul class="list-unstyled text-justify">
             <li>
               <div class="row align-items-center">
                 <div class="col">
-                  <a class="one" href="#!" class="text-dark"><i><iconify-icon icon="ant-design:instagram-filled" width="25" height="25"></iconify-icon></i></a>
+                  <a class="one" href="#!"><i><iconify-icon icon="ant-design:instagram-filled" width="25" height="25"  style="color: white;"></iconify-icon></i></a>
                 </div>
                 <div class="col">
-                  <a class="one" href="#!" class="text-dark"><i><iconify-icon icon="ant-design:youtube-filled" width="25" height="25"></iconify-icon></i></a>
+                  <a class="one" href="#!"><i><iconify-icon icon="ant-design:youtube-filled" width="25" height="25" style="color: white;"></iconify-icon></i></a>
                 </div>
                 <div class="col">
-                  <a class="one" href="#!" class="text-dark"><iconify-icon icon="akar-icons:facebook-fill" width="25" height="25"></iconify-icon></a>
+                  <a class="one" href="#!"><iconify-icon icon="akar-icons:facebook-fill" width="25" height="25" style="color: white;"></iconify-icon></a>
                 </div>
               </div>
             </li> 

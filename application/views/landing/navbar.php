@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-lg"> 
     <a class="navbar-brand" href="#">
-      <img src="<?php echo base_url('assets/img/17.png') ?>"  class="d-inline-block align-top" alt="">
+      <img src="<?php echo base_url('assets/img/17.png') ?>"  class="d-inline-block align-top gambaratas" alt="">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><iconify-icon icon="charm:menu-hamburger"></iconify-icon></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto"> 

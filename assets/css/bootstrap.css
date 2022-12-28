@@ -10932,3 +10932,47 @@ input.nosubmit {
     color: black;
     background-color: yellow; 
   }
+
+.gambarberita{
+  width: 820px;
+  height: 380px;
+}
+
+
+  /* responsive */
+  @media screen and (max-width: 768px) {
+
+    .jumbotron{ 
+      padding-left: 2rem;
+      padding-right: 2rem; 
+      padding-top: 2rem; 
+      padding-bottom: 2rem; 
+    }
+    h1{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    p{
+      font-size: 12px;
+    }  
+    h3{
+      font-size: 16px;
+
+    }
+    h6{
+      font-size: 14px;
+
+    }
+    .gambarberita{
+      width: 20px;
+      height: 80px;
+    }
+    .masa{
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    .gambaratas{
+      width: 280px;
+      height: 80px;
+    } 
+  }

@@ -18,7 +18,7 @@
     <div class="tabcontent mt-5 active" id="BT"> 
       <div class="row">
         <div class="col-lg-8">
-          <img src="<?php echo base_url('assets/img/45.png ') ?>" class="mx-auto" alt="..." width="820px" height="380px" style="border-top-right-radius: 30px">
+          <img src="<?php echo base_url('assets/img/45.png ') ?>" class="gambarberita" alt="..."  style="border-top-right-radius: 30px">
         </div>
         <div class="col-lg-4">
           <div class="card-body">
