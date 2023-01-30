@@ -9,13 +9,13 @@
   
           <ul class="list-unstyled mb-0">
             <li>
-              <a class="one" href="#!" class="text-dark">Kopelma Darussalam, Syiah Kuala, Banda Aceh City, Aceh 24415</a>
+              <a class="one" href="#!" class="text-light">Kopelma Darussalam, Syiah Kuala, Banda Aceh City, Aceh 24415</a>
             </li>
             <li>
-              <a class="one" href="#!" class="text-dark"><i><iconify-icon icon="foundation:telephone"></iconify-icon></i>(0651) 6303037</a>
+              <a class="one" href="#!" class="text-light"><i><iconify-icon icon="foundation:telephone"></iconify-icon></i>(0651) 6303037</a>
             </li>
             <li>
-              <a class="one" href="#!" class="text-dark"><i><iconify-icon icon="ic:round-email"></iconify-icon> </i>badanbisnis@usk.ac.id</a>
+              <a class="one" href="#!" class="text-light"><i><iconify-icon icon="ic:round-email"></iconify-icon> </i>badanbisnis@usk.ac.id</a>
             </li> 
           </ul>
         </div>
@@ -23,20 +23,20 @@
   
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0 my-3">
-          <h5 class="text-uppercase mb-0">BUSINESS PROFILE</h5>
+          <h5 class="text-light mb-0">BUSINESS PROFILE</h5>
   
           <ul class="list-unstyled">
             <li>
-              <a class="one" href="#!" class="text-dark"> About Us</a>
+              <a class="one" href="#!" class="text-light"> About Us</a>
             </li>
             <li>
-              <a class="one" href="<?php echo site_url('organisasi');?>" class="text-dark">Organizational Structure</a>
+              <a class="one" href="<?php echo site_url('organisasi');?>" class="text-light">Organizational Structure</a>
             </li>
             <li>
-              <a class="one" href="#!" class="text-dark">Profil Pimpinan</a>
+              <a class="one" href="#!" class="text-light">Profil Pimpinan</a>
             </li>
             <li>
-              <a class="one" href="<?php echo site_url('bisnis');?>" class="text-dark">Business Unit</a>
+              <a class="one" href="<?php echo site_url('bisnis');?>" class="text-light">Business Unit</a>
             </li>
           </ul>
         </div>
@@ -44,20 +44,20 @@
   
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0 my-3">
-          <h5 class="text-uppercase">LINK INTERNAL</h5>
+          <h5 class="text-light">LINK INTERNAL</h5>
   
           <ul class="list-unstyled mb-0">
             <li>
-              <a class="one" href="#!" class="text-dark">USK Official</a>
+              <a class="one" href="#!" class="text-light">USK Official</a>
             </li>
             <li>
-              <a class="one" href="#!" class="text-dark">Help Center</a>
+              <a class="one" href="#!" class="text-light">Help Center</a>
             </li>
             <li>
-              <a class="one" href="#!" class="text-dark">Aduan Mahasiswa</a>
+              <a class="one" href="#!" class="text-light">Aduan Mahasiswa</a>
             </li>
             <li>
-              <a class="one" href="#!" class="text-dark">Informasi Lainnya</a>
+              <a class="one" href="#!" class="text-light">Informasi Lainnya</a>
             </li>
           </ul>
         </div>

@@ -15,4 +15,34 @@ class Bisnis extends CI_Controller {
         $this->load->view("landing/footer");
         $this->load->view("landing/js");
 	}
+
+        public function detailunit()
+	{
+        $this->load->view("landing/head");
+        $this->load->view("landing/navbar");
+        $this->load->view("landing/jumbotron");
+        $this->load->view("bisnis/bisnissatu");
+        $this->load->view("landing/footer");
+        $this->load->view("landing/js");
+	}
+
+        public function detailunitdua()
+	{
+        $this->load->view("landing/head");
+        $this->load->view("landing/navbar");
+        $this->load->view("landing/jumbotron");
+        $this->load->view("bisnis/bisnisdua");
+        $this->load->view("landing/footer");
+        $this->load->view("landing/js");
+	}
+
+        public function detailunittiga()
+	{
+        $this->load->view("landing/head");
+        $this->load->view("landing/navbar");
+        $this->load->view("landing/jumbotron");
+        $this->load->view("bisnis/bisnistiga");
+        $this->load->view("landing/footer");
+        $this->load->view("landing/js");
+	}
 }

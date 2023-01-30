@@ -1,11 +1,42 @@
 <div class="container-fluid p-5">
-    <div class="tab">
+
+<div class="row">
+
+    <div class="col-lg-4">
+
+      <form class="nosubmit">
+
+        <input class="nosubmit" type="search" placeholder="Search...">
+
+      </form>
+
+    </div>
+
+    <div class="col-lg-8">
+
+      <div class="tab">
+
+        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'SUB')" id="defaultOpen">Semua Unit Bisnis</btnto>
+
+        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'BA')">Bisnis Akademik</btnto>
+
+        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'BNA')">Bisnis Non - Akademik</btnto>  
+
+        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'TK')">Terbuka Kerjasama</btnto>
+
+      </div>
+
+    </div>
+
+  </div>
+
+    <!-- <div class="tab">
         <buttonto type="button" class="buttonto buttonto1 active" onclick="openCity(event, 'SUB')">Semua Unit Bisnis</buttonto>
         <buttonto type="button" class="buttonto buttonto1" onclick="openCity(event, 'BA')">Bisnis Akademik</buttonto>
         <buttonto type="button" class="buttonto buttonto1" onclick="openCity(event, 'BNA')">Bisnis Non - Akademik</buttonto> 
         <buttonto type="button" class="buttonto buttonto1" onclick="openCity(event, 'TK')">Terbuka Kerjasama</buttonto>
-    </div> 
-        <div class="tabcontent active" id="SUB">
+    </div>  -->
+        <div class="tabcontent" id="SUB">
         <!-- isi konten  -->
             <div class="card-deck">
                 <div class="card">
@@ -13,22 +44,18 @@
                         <img class="card-img-top" src="<?php echo base_url('assets/img/24.jpg') ?>" height="260px" alt="Card image cap">
                         
                             <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
+                                <div class="textbaru">Gedung AAC (Academic Activity Center) Prof. Dr. Dayan Dawood, MA yang selanjutnya disebut Gedung AAC dibangun pada tahun 2000 yang merupakan hibah dari Pemerintah Jepang. Tujuan utama pembangunan gedung ini adalah untuk mendukung berbagai kegiatan akademik dan administrasi yang dilaksanakan oleh pihak Rektorat Universitas Syiah Kuala. 
                                 </div>
                             </div>  
                     </div>
                     <div class="card-body"> 
                         <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
+                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunittiga');?>">Academic Activity Center </a></dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
+                            <dd class="col-sm-8">Pendidikan</dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -235,22 +262,18 @@
                         <img class="card-img-top" src="<?php echo base_url('assets/img/33.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
+                                <div class="textbaru">Rumah sakit hewan pendidikan Prof. Dr. Noerjanto Fakultas Kedokteran Hewan Universitas Syiah Kuala didirikan berdasarkan Surat Keputusan Rektor Universitas Syiah Kuala Nomor. 2317 Tahun 2013 tentang Pembentukan Rumah Sakit Hewan Prof. Dr. Noerjanto Pada Fakultas Kedokteran Hewan Universitas Syiah Kuala. 
                                 </div>
                             </div>   
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
+                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunitdua');?>">Rumah Sakit Hewan </a></dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
+                            <dd class="col-sm-8">Kesehataan </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dd class="col-sm-8">Jl. Tgk. Hasan Krueng Kalee No.4, Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -259,22 +282,18 @@
                         <img class="card-img-top" src="<?php echo base_url('assets/img/34.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
+                                <div class="textbaru">Klinik Pratama dr. T. Makmur Mohd. Zein adalah salah satu Klinik Pratama Pemerintah dibawah naungan Universitas Syiah Kuala di Banda Aceh. Bertujuan untuk memberikan pelayanan Kesehatan yang bermutu dan berkesinambungan yang berorientasi pada keselamatan dan kepuasan pasien.
                                 </div>
                             </div>  
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
                             <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
+                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunit');?>">Klinik Pratama </a></dd>
                             <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
+                            <dd class="col-sm-8">Kesehatan </dd>
                             <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -506,4 +525,5 @@
       document.getElementById(cityName).style.display = "block";
       evt.currentTarget.className += " active";
     }
+    document.getElementById("defaultOpen").click();
     </script>

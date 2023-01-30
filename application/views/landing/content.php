@@ -1,19 +1,22 @@
 <img src="<?php echo base_url('assets/img/32.png') ?>"  class="mx-auto d-block img-fluid" alt="...">
   <div class="jumbotron">
-    <div class="container">
+    <div class="container pl-5 pr-5"> 
+      <div class="ml-5 mr-5">
       <h1>We Provide Perfect Solution in Business</h1>
       <p>Badan Pengembangan Bisnis (BPBU) Universitas Syiah Kuala or U-Business is an agency in charge of managing and developing business units and optimizing the management of university funding sources. In order to establish a high-quality Business Development Agency, we need an interactive and dynamic information facility so that the vision and mission can be appropriately understood, one of which is through website media. This Website provides information to stakeholders who are interested in knowing more about the business being run at Universitas Syiah Kuala. This Website is also intended for potential investors who aim to discover business opportunities and potential collaboration.</p> 
+   
+      </div>
     </div>
   </div>
   <div class="container">
-  <img src="<?php echo base_url('assets/img/52.png') ?>" class="rounded mx-auto d-block shadow m-5 img-fluid gam"  alt="...">
+  <img src="<?php echo base_url('assets/img/52.png') ?>" class="rounded mx-auto d-block shadow m-5 gamdua"  alt="...">
     
   </div>
     <hr class="hrhome" />
   <div class="container masa">
     <div class="clearfix">
-      <h3 class="float-left">Unit Bisnis</h3>
-      <h6 class="kata float-right p-1"><a href="<?php echo site_url('bisnis');?>">Selengkapnya</a></h6>
+      <h3 class="float-left">Business Unit</h3>
+      <h6 class="kata float-right p-1"><a href="<?php echo site_url('bisnis');?>">See More</a></h6>
     </div> 
     <div class="card-deck">
       <div class="card">
@@ -65,8 +68,8 @@
          <div class="col-md-6">
             <h1>  We Are Open to The Possibility of Working Together</h1>
               <p>We believe that our expertise and experience make us an ideal partner for your company, and we are excited about the potential opportunities for collaboration. We are confident that our team would be able to bring added value to your organization, and we are open to exploring various ways in which we could work together. Please don't hesitate to contact us to discuss potential partnership opportunities further. We look forward to the possibility of working with you.</p>      
-            <a href="#" class="btn btn-light" role="button" aria-pressed="true"><img src="<?php echo base_url('assets/img/wa.png') ?>"> Contact</a>
-            <a href="#" class="btn btn-light" role="button" aria-pressed="true"><img src="<?php echo base_url('assets/img/v89.png') ?>">  Email</a>
+             <a href="#" class="btn btn-light" role="button" aria-pressed="true" style="padding: 7px 30px;"><img src="<?php echo base_url('assets/img/wa.png') ?>"> Contact</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" class="btn btn-light" role="button" aria-pressed="true" style="padding: 7px 30px;"><img src="<?php echo base_url('assets/img/v89.png') ?>">  Email</a>
             </div>
             <div class="col-md-6 p-4">
           <img src="<?php echo base_url('assets/img/59.png') ?>" alt="" class="img-fluid gam"></div>
@@ -78,8 +81,8 @@
 </div>
 <div class="container masa pt-3">
   <div class="clearfix">
-    <h3 class="float-left">Berita</h3>
-    <h6 class="kata float-right p-1"><a href="<?php echo site_url('berita');?>">Selengkapnya</a></h6>
+    <h3 class="float-left">News</h3>
+    <h6 class="kata float-right p-1"><a href="<?php echo site_url('berita');?>">See More</a></h6>
   </div>  
   <div class="card-deck">
     <div class="card">
@@ -98,7 +101,7 @@
         </div>
         <div class="card-footer">
           <small class="text-muted">
-          Banda Aceh (Waspada Aceh) – PT Bank Syariah Indonesia Tbk (BSI) bersama BSI Maslahat menjalin kerja sama dengan Atsiri Research Center (ARC) Universitas Syiah Kuala (ASK), untuk penguatan kapasitas pelaku usaha budidaya nilam di wilayah Aceh. Kerja sama ini juga diharapkan bisa meningkatkan kualitas minyak nilam Aceh yang merupakan komoditas unggulan Indonesia dan mendukung pemulihan ekonomi melalui program pemberdayaan. Direktur Sales & Distribution Bank BSI, Anton Sukarna, mengatakan dalam kerja sama ini, BSI dan BSI Maslahat berperan melaksanakan program UMKM BSI bagi masyarakat pelaku budidaya nilam di wilayah Aceh.
+          Banda Aceh (Waspada Aceh) � PT Bank Syariah Indonesia Tbk (BSI) bersama BSI Maslahat menjalin kerja sama dengan Atsiri Research Center (ARC) Universitas Syiah Kuala (ASK), untuk penguatan kapasitas pelaku usaha budidaya nilam di wilayah Aceh. Kerja sama ini juga diharapkan bisa meningkatkan kualitas minyak nilam Aceh yang merupakan komoditas unggulan Indonesia dan mendukung pemulihan ekonomi melalui program pemberdayaan. Direktur Sales & Distribution Bank BSI, Anton Sukarna, mengatakan dalam kerja sama ini, BSI dan BSI Maslahat berperan melaksanakan program UMKM BSI bagi masyarakat pelaku budidaya nilam di wilayah Aceh.
           </small>
         </div>
          </div>
