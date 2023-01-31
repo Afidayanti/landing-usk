@@ -1,3 +1,7 @@
+<div class="jumbotron">  
+            <h1>Our Goals</h1>
+        </div>
+
 <article>
 
     <div class="container text-center p-5">

@@ -1,3 +1,7 @@
+<div class="jumbotron">  
+            <h1>Organizational Structure</h1>
+        </div>
+
 <div class="container p-5">
 
     <div class="row row-cols-1 row-cols-md-3 mt-5">

@@ -1,4 +1,7 @@
-<div class="container-fluid p-5">
+<div class="jumbotron">  
+            <h1>News</h1>
+        </div>
+        <div class="container-fluid p-5">
 
   <div class="row">
 

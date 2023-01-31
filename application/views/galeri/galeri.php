@@ -1,18 +1,22 @@
 <article>
+<div class="jumbotron">  
+            <h1>Gallery</h1>
+        </div>
     <div class="container-fluid">
         <div class="card pt-5">
-            <img id="myImg" class="card-img" src="<?php echo base_url('assets/img/46.png') ?>" alt="Card image">
+            <img class="card-img" src="<?php echo base_url('assets/img/produk6.JPG') ?>" alt="Card image">
+            <!--  id="myImg" -->
         </div>
 
         <div class="row">
             <div class="col-sm-8"> 
                 <div class="card">
-                     <img class="card-img" src="<?php echo base_url('assets/img/48.png') ?>" height="495px" alt="Card image">
+                     <img class="card-img" src="<?php echo base_url('assets/img/produk2.JPG') ?>" height="495px" alt="Card image">
                 </div> 
             </div>
             <div class="col-sm-4"> 
                 <div class="card">
-                     <img class="card-img" src="<?php echo base_url('assets/img/47.png') ?>" alt="Card image">
+                     <img class="card-img" src="<?php echo base_url('assets/img/produk5.JPG') ?>" height="495px" style="object-fit: cover;" alt="Card image">
                 </div> 
             </div>
         </div>
@@ -20,89 +24,103 @@
         <hr class="hr-text" data-content="Galeri Produk">
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo base_url('assets/img/produk1.JPG') ?>" alt="Card image cap">
                 
             </div>
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo base_url('assets/img/produk3.JPG') ?>" alt="Card image cap">
                 
             </div>
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo base_url('assets/img/produk9.JPG') ?>" alt="Card image cap">
                 
             </div>
         </div>
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo base_url('assets/img/produk10.JPG') ?>" alt="Card image cap">
                 
             </div>
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo base_url('assets/img/produk5.JPG') ?>" alt="Card image cap">
                 
             </div>
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo base_url('assets/img/produk11.JPG') ?>" alt="Card image cap">
                 
+            </div>
+        </div>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="<?php echo base_url('assets/img/produk8.JPG') ?>" alt="Card image cap">
+                
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="<?php echo base_url('assets/img/produk7.JPG') ?>" alt="Card image cap">
+                
+            </div>
+            <div class="card">
+                <!-- <img class="card-img-top" src="<?php echo base_url('assets/img/produk.JPG') ?>" alt="Card image cap">
+                 -->
             </div>
         </div>
 
         <hr class="hr-text" data-content="Kegiatan">
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo base_url('assets/img/kegiatan1.jpg') ?>" alt="Card image cap">
                 
             </div>
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo base_url('assets/img/kegiatan2.jpg') ?>" alt="Card image cap">
                 
             </div>
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo base_url('assets/img/kegiatan3.jpg') ?>" alt="Card image cap">
                 
             </div>
         </div>
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo base_url('assets/img/kegiatan4.jpg') ?>" alt="Card image cap">
                 
             </div>
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
-                
+                <!-- <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                 -->
             </div>
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
-                
+                <!-- <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                 -->
             </div>
         </div>
 
         <hr class="hr-text" data-content="Asset">
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetsabang.jpg') ?>" alt="Card image cap">
                 
             </div>
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetlamte.jpg') ?>" alt="Card image cap">
                 
             </div>
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetlam.jpg') ?>" alt="Card image cap">
                 
             </div>
         </div>
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetgajah.jpg') ?>" alt="Card image cap">
                 
             </div>
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetule.jpg') ?>" alt="Card image cap">
                 
             </div>
             <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
+                <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetule2.jpg') ?>" alt="Card image cap">
                 
             </div>
         </div>

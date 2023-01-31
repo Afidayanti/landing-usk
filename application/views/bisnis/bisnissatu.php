@@ -1,6 +1,10 @@
-<div class="container">
+
+<div class="jumbotron">  
+            <h1>Business Unit</h1>
+        </div>
+        <div class="container">
     <div class="pt-5 text-center"> 
-        <h1 class="mt-5 pt-2 pb-5"> Apotek Pendidikan</h1>
+        <h1 class="mt-5 pt-2 pb-5"> APOTEK PENDIDIKAN</h1>
     </div>
     <div class="row">
         <div class="col-lg-8">

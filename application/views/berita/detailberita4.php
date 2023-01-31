@@ -1,4 +1,7 @@
-<article>
+<div class="jumbotron">  
+            <h1>News</h1>
+        </div>
+        <article>
 
 <div class="container p-5">
 

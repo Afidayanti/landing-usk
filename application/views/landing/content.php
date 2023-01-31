@@ -1,11 +1,10 @@
-<img src="<?php echo base_url('assets/img/32.png') ?>"  class="mx-auto d-block img-fluid" alt="...">
+<video autoplay muted loop>
+  <source src="<?php echo base_url('assets/video/headervideo.mp4') ?>" type="video/mp4"> 
+</video>
   <div class="jumbotron">
     <div class="container pl-5 pr-5"> 
-      <div class="ml-5 mr-5">
       <h1>We Provide Perfect Solution in Business</h1>
       <p>Badan Pengembangan Bisnis (BPBU) Universitas Syiah Kuala or U-Business is an agency in charge of managing and developing business units and optimizing the management of university funding sources. In order to establish a high-quality Business Development Agency, we need an interactive and dynamic information facility so that the vision and mission can be appropriately understood, one of which is through website media. This Website provides information to stakeholders who are interested in knowing more about the business being run at Universitas Syiah Kuala. This Website is also intended for potential investors who aim to discover business opportunities and potential collaboration.</p> 
-   
-      </div>
     </div>
   </div>
   <div class="container">

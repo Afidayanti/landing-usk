@@ -9,8 +9,7 @@ class Organisasi extends CI_Controller {
 	public function index()
 	{
         $this->load->view("landing/head");
-        $this->load->view("landing/navbar");
-        $this->load->view("landing/jumbotron");
+        $this->load->view("landing/navbar"); 
         $this->load->view("organisasi/organisasi");
         $this->load->view("landing/footer");
         $this->load->view("landing/js");

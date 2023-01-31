@@ -878,8 +878,11 @@ small,
 
   width: 90%;
 
-  border: 1px solid  green;
+  border: 0;
 
+  height: 1px;
+
+  background: linear-gradient(273.12deg, #D1C336 -28.18%, #086375 59.35%);
   margin-left: auto;
 
   margin-right: auto;
@@ -935,10 +938,7 @@ small,
 
   height: 1px;
 
-  background: linear-gradient(257.98deg, #2B9348 0%, #2B9348 0%, #2B9348 0.01%, #C5C627 56.39%, #2B9348 92.91%);
-
-  
-
+  background: linear-gradient(273.12deg, #D1C336 -28.18%, #086375 59.35%);
   margin-left: auto;
 
   margin-right: auto;
@@ -21721,7 +21721,7 @@ a.two:hover {
 
 .buttwo1:hover {
 
-  background: linear-gradient(256.64deg, #2B9348 0%, #2B9348 0.02%, #EEEF20 157.34%);
+  background: linear-gradient(273.12deg, #D1C336 -28.18%, #086375 59.35%);
 
   color: white;
 
@@ -21731,7 +21731,7 @@ a.two:hover {
 
 .buttwo1.active { 
 
-  background: linear-gradient(256.64deg, #2B9348 0%, #2B9348 0.02%, #EEEF20 157.34%);
+  background: linear-gradient(273.12deg, #D1C336 -28.18%, #086375 59.35%);
 
   color: white;
 
@@ -22001,4 +22001,15 @@ font-size:12px;
 
   }
 
-  
+  video {  
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  .aset{
+    height: auto;
+    min-height: 280px;
+  }
