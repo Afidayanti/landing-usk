@@ -55,7 +55,7 @@
 
               <div class="col px-md-5">
 
-                <i><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
                   <span>Admin</span>
 
@@ -63,7 +63,7 @@
 
               <div class="col px-md-3">
 
-                <i><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
                   <span>6 September 2022</span>
 
@@ -99,17 +99,17 @@
 
                   <div class="row mx-md-n5 my-3">
 
-                    <div class="col px-md-5">
+                    <div class="col-px-md-5">
 
-                      <i><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
                       <span>Admin</span>
 
                     </div>
 
-                    <div class="col px-md-2">
+                    <div class="col-px-md-2">
 
-                      <i><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
                       <span>6 September 2022</span>
 
@@ -143,17 +143,17 @@
 
                   <div class="row mx-md-n5 my-3">
 
-                    <div class="col px-md-5">
+                    <div class="col-px-md-5">
 
-                      <i><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
                       <span>Admin</span>
 
                     </div>
 
-                    <div class="col px-md-2">
+                    <div class="col-px-md-2">
 
-                      <i><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
                       <span>6 September 2022</span>
 
@@ -185,13 +185,13 @@
 
             <div class="card">
 
-              <img src="<?php echo base_url('assets/img/51.png') ?>" width="100px" height="195px"  class="card-img-top" src="..." alt="Card image cap">
+              <img src="<?php echo base_url('assets/img/51.png') ?>"  class="card-img-top gambarkelima" src="..." alt="Card image cap">
 
                   <div class="card-body">
 
                     <div class="row mx-md-n5 my-3">
 
-                      <div class="col px-md-5">
+                      <div class="col-px-md-5">
 
                         <i><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
@@ -199,7 +199,7 @@
 
                       </div>
 
-                      <div class="col px-md-2">
+                      <div class="col-px-md-2">
 
                         <i><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 

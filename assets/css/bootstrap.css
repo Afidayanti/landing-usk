@@ -8971,9 +8971,7 @@ input[type="button"].btn-block {
 
   -ms-flex-direction: column;
 
-  flex-direction: column;
-
-  padding-left: 0;
+  flex-direction: column; 
 
   margin-bottom: 0;
 
@@ -21928,8 +21926,33 @@ height: 385px;
 object-fit: cover; object-position: -20% 0;
 }
 
+video {  
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+.aset{
+  height: auto;
+  min-height: 280px;
+}
+.picbis {
+  height: 260px;
+}
+.gambarkelima{
+  width: 100px; 
+  height: 195px; 
+}
+
+.gamgaleri{
+  height: 495px;
+}
+
+
   /* responsive */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
 
     .jumbotron{ 
       padding-left: 2rem;
@@ -21939,6 +21962,11 @@ object-fit: cover; object-position: -20% 0;
     }
     h1{
       font-size: 18px;
+      font-weight: bold;
+    }
+
+    h5{
+      font-size: 14px;
       font-weight: bold;
     }
     p{
@@ -21978,13 +22006,35 @@ font-size: 12px;
 }
 
 dt{
-font-size:12px;}
+font-size:12px; }
 
 dd{font-size:10px;}
 .bawah{font-size:14px;
 }
 
+.cardto {
+  margin-bottom: 2rem;
 
+  position: center;
+
+  display: -ms-flexbox;
+
+  display: flex;
+
+  -ms-flex-direction: column;
+
+  flex-direction: column;
+
+  max-width: 40%;
+
+  word-wrap: break-word;
+
+  background-color: #006D77;
+
+  background-clip: border-box; 
+
+  border-radius: 1.5rem;
+}
 
 .gambarorgan{
 width: 100%;
@@ -21998,18 +22048,252 @@ object-position: -20% 0;
 .katato, .katanya{
 font-size:12px;
 }
+.picbis {
+  height: 90px;
+}
+.picbiss {
+  height: 75px;
+}
+.textbaru{
+   
 
+    color: white;
+   
+    text-align: center;
+   
+    font-size:5px;
+   
+    padding: 10px 15px 10px 15px;
+}
+.fotokerja{
+  height: auto;
+  width: 50%;
+}
+.btnbarunya{
+
+  background: #006D77;
+
+  border-radius: 10px;
+
+  align-items: center;
+
+  padding: 2px 5px;
+
+  color: white;
+
+}
+.gambarkelima{
+  width: 120px; 
+  height: 65px; 
+}
+
+.gamgaleri{
+  height: 395px;
+}
+
+.cari {
+  margin: auto;
+  background: #fff;
+  height: 80px;
+  border-radius: 30px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer; 
+}
+.cari:hover .input {
+  width: 100%;
+}
+.cari .input {
+  background: transparent;
+  border: none;
+  outline: 1px solid black;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px; 
+}
   }
 
-  video {  
-    width: 100%;
-    height: auto;
-    position: relative;
-    display: flex; 
+  
+
+  @media screen and (max-width: 768px) {
+    .jumbotron{ 
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; 
+      padding-top: 1.5rem; 
+      padding-bottom: 1.5rem; 
+    }
+    dt{
+      font-size: 14px; }
+      
+      dd{font-size:12px;}
+
+      .cari {
+        margin: auto;
+        background: #fff;
+        height: 100px;
+        border-radius: 30px;
+        padding: 10px 10px;
+        display: flex;
+        align-items: center;
+        cursor: pointer; 
+      }
+      .cari:hover .input {
+        width: 100%;
+      }
+      .cari .input {
+        background: transparent;
+        border: none;
+        outline: 1px solid black;
+        width: 100%;
+        font-weight: 400;
+        font-size: 14px; 
+      }
+      .cardto {
+        margin-bottom: 2rem;
+      
+        position: center;
+      
+        display: -ms-flexbox;
+      
+        display: flex;
+      
+        -ms-flex-direction: column;
+      
+        flex-direction: column;
+      
+        max-width: 75%;
+      
+        word-wrap: break-word;
+      
+        background-color: #006D77;
+      
+        background-clip: border-box; 
+      
+        border-radius: 1.5rem;
+      }
+
+      .picbis {
+        height: 120px;
+        }
+        .fotokerja{
+          height: auto;
+          width: 80%;
+        }
+        .gambarkelima{
+          width: 220px; 
+          height: 100px; 
+        }
+  }
+
+  @media screen and (max-width: 992px) {
+dt {
+  font-size: 15px;
+  display: flex;
+}
+
+ .ademin, .card-title{
+  font-size: 14px;
+}
+.katato { font-size: 14px ;}
+ .kataw{ font-size: 10px;}
+.cardto {
+  margin-bottom: 2rem;
+
+  position: center;
+
+  display: -ms-flexbox;
+
+  display: flex;
+
+  -ms-flex-direction: column;
+
+  flex-direction: column;
+
+  max-width: 75%;
+
+  word-wrap: break-word;
+
+  background-color: #006D77;
+
+  background-clip: border-box; 
+
+  border-radius: 1.5rem;
+}
+.gambarorgan{
+  width: 100%;
+  height: auto;
+  max-width: 180px; 
+  max-height: 175px; 
+  object-fit: cover;
+  object-position: -20% 0;
+  }
+
+  .iconorganisasi{
+    width: 5%;
+  height: auto;
+  }
+
+  .cari {
+    margin: auto;
+    background: #fff;
+    height: 80px;
+    border-radius: 30px;
+    padding: 10px 10px;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    cursor: pointer; 
   }
-  .aset{
-    height: auto;
-    min-height: 280px;
+  .cari:hover .input {
+    width: 100%;
+  }
+  .cari .input {
+    background: transparent;
+    border: none;
+    outline: 1px solid black;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px; 
+  }
+  .picbis {
+    height: 180px;
+  }
+
+  .picbiss {
+    height: 145px;
+  }
+
+  .textbaru{ 
+
+    color: white;
+   
+    text-align: center;
+   
+    font-size:10px;
+   
+    padding: 10px 15px 10px 15px;
+}
+.beritagambar{
+  width: 70%;
+       height: auto;
+ 
+ }
+ 
+
+ .gambarkelima{
+  width: 80%;
+       height: auto;
+ }
+
+ .cobaaa{
+  padding-left: 40px;
+ }
+
+ .picorg{
+  width: 40%;
+       height: auto; 
+       display: block;
+       float:center;
+ }
+
   }

@@ -11,12 +11,12 @@
         <div class="row">
             <div class="col-sm-8"> 
                 <div class="card">
-                     <img class="card-img" src="<?php echo base_url('assets/img/produk2.JPG') ?>" height="495px" alt="Card image">
+                     <img class="card-img gamgaleri" src="<?php echo base_url('assets/img/produk2.JPG') ?>" alt="Card image">
                 </div> 
             </div>
             <div class="col-sm-4"> 
                 <div class="card">
-                     <img class="card-img" src="<?php echo base_url('assets/img/produk5.JPG') ?>" height="495px" style="object-fit: cover;" alt="Card image">
+                     <img class="card-img gamgaleri" src="<?php echo base_url('assets/img/produk5.JPG') ?>"   style="object-fit: cover;" alt="Card image">
                 </div> 
             </div>
         </div>

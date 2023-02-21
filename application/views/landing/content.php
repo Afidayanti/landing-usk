@@ -22,13 +22,13 @@
         <img class="card-img-top" src="<?php echo base_url('assets/img/14.png') ?>" alt="Card image cap">
         <div class="card-body">   
         <dl class="row">
-          
-            <dt class="col-md-4">Business Unit</dt>
-            <dd class="col-md-8">USKPress</dd>
-            <dt class="col-md-4">Type of Business</dt>
-            <dd class="col-md-8">Percetakan dan Penerbitan</dd>
-            <dt class="col-md-4">Location</dt>
-            <dd class="col-md-8">Jl. lkr. Kampus, Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24411</dd>
+
+            <dt class="col-md-4 col-lg-5">Business Unit</dt>
+            <dd class="col-md-8 col-lg-7">USKPress</dd>
+            <dt class="col-md-4 col-lg-5">Type of Business</dt>
+            <dd class="col-md-8 col-lg-7">Percetakan dan Penerbitan</dd>
+            <dt class="col-md-4 col-lg-5">Location</dt>
+            <dd class="col-md-8 col-lg-7">Jl. lkr. Kampus, Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24411</dd>
           </dl>
         </div> 
       </div> 
@@ -36,12 +36,12 @@
         <img class="card-img-top" src="<?php echo base_url('assets/img/16.png') ?>" alt="Card image cap">
         <div class="card-body">
           <dl class="row">
-            <dt class="col-sm-4">Business Unit</dt>
-            <dd class="col-sm-8">Rumah Sakit Prince Nayef USK</dd>
-            <dt class="col-sm-4">Type of Business</dt>
-            <dd class="col-sm-8">Kesehatan</dd>
-            <dt class="col-sm-4">Location</dt>
-            <dd class="col-sm-8">Jl. lkr. Kampus, Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24411</dd>
+            <dt class="col-md-4 col-lg-5">Business Unit</dt>
+            <dd class="col-md-8 col-lg-7">Rumah Sakit Prince Nayef USK</dd>
+            <dt class="col-md-4 col-lg-5">Type of Business</dt>
+            <dd class="col-md-8 col-lg-7">Kesehatan</dd>
+            <dt class="col-md-4 col-lg-5">Location</dt>
+            <dd class="col-md-8 col-lg-7">Jl. lkr. Kampus, Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24411</dd>
           </dl>
         </div>
       </div>
@@ -49,12 +49,12 @@
         <img class="card-img-top" src="<?php echo base_url('assets/img/19.png') ?>" alt="Card image cap">
         <div class="card-body">
           <dl class="row">
-          <dt class="col-sm-4">Business Unit</dt>
-            <dd class="col-sm-8">Atsiri Research Center</dd>
-            <dt class="col-sm-4">Type of Business</dt>
-            <dd class="col-sm-8">Penelitian dan Pengembangan Nilam</dd>
-            <dt class="col-sm-4">Location</dt>
-            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24415</dd>
+          <dt class="col-md-4 col-lg-5">Business Unit</dt>
+            <dd class="col-md-8 col-lg-7">Atsiri Research Center</dd>
+            <dt class="col-md-4 col-lg-5">Type of Business</dt>
+            <dd class="col-md-8 col-lg-7">Penelitian dan Pengembangan Nilam</dd>
+            <dt class="col-md-4 col-lg-5">Location</dt>
+            <dd class="col-md-8 col-lg-7">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24415</dd>
           </dl>
         </div>
       </div>
@@ -88,12 +88,12 @@
       <img class="card-img-top" src="<?php echo base_url('assets/img/43.png') ?>" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-header"><a href="<?php echo site_url('berita/detail');?>">BSI Gandeng ARC USK Perkuat Budidaya Nilam Aceh</a></h5>
-        <div class="row mx-md-12 my-3">
-          <div class="col md-5">
+        <div class="row mx-md-12 my-3 ademin">
+          <div class="col-md-5">
               <i><iconify-icon icon="ic:baseline-person-outline"></iconify-icon></i> 
               <span>Admin</span>
           </div>
-          <div class="col md-5">
+          <div class="col-md-5">
               <i><iconify-icon icon="ic:baseline-calendar-month"></iconify-icon></i> 
               <span>6 September 2022</span>
           </div>
@@ -109,12 +109,12 @@
         <img class="card-img-top" src="<?php echo base_url('assets/img/41.png') ?>" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-header"><a href="<?php echo site_url('berita/beritahu');?>">ARC USK BERI PELATIHAN PRODUK INOVASI NILAM KEPADA UMKM MAKASSAR</a></h5>
-          <div class="row mx-md-12 my-3">
-            <div class="col md-5">
+          <div class="row mx-md-12 my-3 ademin">
+            <div class="col-md-5">
                 <i><iconify-icon icon="ic:baseline-person-outline"></iconify-icon></i> 
                 <span>Admin</span>
             </div>
-            <div class="col md-5">
+            <div class="col-md-5">
                 <i><iconify-icon icon="ic:baseline-calendar-month"></iconify-icon></i> 
                 <span>6 September 2022</span>
             </div>
@@ -130,12 +130,12 @@
         <img class="card-img-top" src="<?php echo base_url('assets/img/42.png') ?>" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-header"><a href="<?php echo site_url('berita/beri');?>">ARC-USK Banda Aceh berdayakan milenial untuk pengembangan minyak nilam</a></h5>
-          <div class="row mx-md-12 my-3">
-            <div class="col md-5">
+          <div class="row mx-md-12 my-3 ademin">
+            <div class="col-md-5">
                 <i><iconify-icon icon="ic:baseline-person-outline"></iconify-icon></i> 
                 <span>Admin</span>
             </div>
-            <div class="col md-5">
+            <div class="col-md-5">
                 <i><iconify-icon icon="ic:baseline-calendar-month"></iconify-icon></i> 
                 <span>6 September 2022</span>
             </div>

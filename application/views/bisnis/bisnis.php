@@ -45,7 +45,7 @@
             <div class="card-deck">
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/24.jpg') ?>" height="260px" alt="Card image cap">
+                        <img class="card-img-top picbis" src="<?php echo base_url('assets/img/24.jpg') ?>"  alt="Card image cap">
                         
                             <div class="overlay">
                                 <div class="textbaru">Gedung AAC (Academic Activity Center) Prof. Dr. Dayan Dawood, MA yang selanjutnya disebut Gedung AAC dibangun pada tahun 2000 yang merupakan hibah dari Pemerintah Jepang. Tujuan utama pembangunan gedung ini adalah untuk mendukung berbagai kegiatan akademik dan administrasi yang dilaksanakan oleh pihak Rektorat Universitas Syiah Kuala. 
@@ -54,12 +54,12 @@
                     </div>
                     <div class="card-body"> 
                         <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunittiga');?>">Academic Activity Center </a></dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Pendidikan</dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunittiga');?>">Academic Activity Center </a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Pendidikan</dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -78,12 +78,12 @@
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -102,12 +102,12 @@
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -118,18 +118,18 @@
                         <img class="card-img-top" src="<?php echo base_url('assets/img/25.JPG') ?>" alt="Card image cap">
                         
                             <div class="overlay">
-                                <div class="textbaru">Apotek Pendidikan Universitas Syiah Kuala merupakan unit bisnis yang diresmikan pada 15 Juni 2022 dan dikelola di bawah Badan Pengembangan Bisnis dan Usaha (BPBU) Universitas Syiah Kuala Banda Aceh
+                                <div class="textbaru">Apotek Pendidikan Universitas Syiah Kuala merupakan unit bisnis yang diremdikan pada 15 Juni 2022 dan dikelola di bawah Badan Pengembangan Bisnis dan Usaha (BPBU) Universitas Syiah Kuala Banda Aceh
                                 </div>
                             </div> 
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunit');?>">Apotek Pendidikan</a></dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Kesehatan </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">alan Tgk. Syech Abdur Rauf No.1, Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunit');?>">Apotek Pendidikan</a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Kesehatan </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">alan Tgk. Syech Abdur Rauf No.1, Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -148,12 +148,12 @@
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -172,12 +172,12 @@
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -195,12 +195,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunitempat');?>">UPT Bahasa </a></dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Pendidikan </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunitempat');?>">UPT Bahasa </a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Pendidikan </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -219,12 +219,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div> 
@@ -244,12 +244,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -266,12 +266,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunitdua');?>">Rumah Sakit Hewan </a></dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Kesehataan </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Jl. Tgk. Hasan Krueng Kalee No.4, Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunitdua');?>">Rumah Sakit Hewan </a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Kesehataan </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Jl. Tgk. Hasan Krueng Kalee No.4, Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -286,12 +286,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunitlima');?>">Klinik Pratama </a></dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Kesehatan </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunitlima');?>">Klinik Pratama </a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Kesehatan </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -310,12 +310,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -337,18 +337,18 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/39.JPG') ?>" height="220px" alt="Card image cap">
+                        <img class="card-img-top picbiss" src="<?php echo base_url('assets/img/39.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -361,12 +361,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -386,12 +386,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <!-- <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl> -->
                     </div> 
                 </div>
@@ -415,18 +415,18 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/36.JPG') ?>" height="220px" alt="Card image cap">
+                        <img class="card-img-top picbiss" src="<?php echo base_url('assets/img/36.JPG') ?>" alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -439,12 +439,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -460,12 +460,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunitempat');?>">UPT Bahasa </a></dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Pendidikan </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunitempat');?>">UPT Bahasa </a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Pendidikan </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -486,12 +486,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -510,12 +510,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <!-- <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl> -->
                     </div> 
                 </div>
@@ -534,12 +534,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <!-- <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl> -->
                     </div> 
                 </div>
@@ -550,7 +550,7 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
             <div class="card-deck">
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/24.jpg') ?>" height="260px" alt="Card image cap">
+                        <img class="card-img-top picbis" src="<?php echo base_url('assets/img/24.jpg') ?>" alt="Card image cap">
                         
                             <div class="overlay">
                                 <div class="textbaru">Gedung AAC (Academic Activity Center) Prof. Dr. Dayan Dawood, MA yang selanjutnya disebut Gedung AAC dibangun pada tahun 2000 yang merupakan hibah dari Pemerintah Jepang. Tujuan utama pembangunan gedung ini adalah untuk mendukung berbagai kegiatan akademik dan administrasi yang dilaksanakan oleh pihak Rektorat Universitas Syiah Kuala. 
@@ -559,12 +559,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                         <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunittiga');?>">Academic Activity Center </a></dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Pendidikan</dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunittiga');?>">Academic Activity Center </a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Pendidikan</dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -583,12 +583,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -607,12 +607,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -623,18 +623,18 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                         <img class="card-img-top" src="<?php echo base_url('assets/img/25.JPG') ?>" alt="Card image cap">
                         
                             <div class="overlay">
-                                <div class="textbaru">Apotek Pendidikan Universitas Syiah Kuala merupakan unit bisnis yang diresmikan pada 15 Juni 2022 dan dikelola di bawah Badan Pengembangan Bisnis dan Usaha (BPBU) Universitas Syiah Kuala Banda Aceh
+                                <div class="textbaru">Apotek Pendidikan Universitas Syiah Kuala merupakan unit bisnis yang diremdikan pada 15 Juni 2022 dan dikelola di bawah Badan Pengembangan Bisnis dan Usaha (BPBU) Universitas Syiah Kuala Banda Aceh
                                 </div>
                             </div> 
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunit');?>">Apotek Pendidikan</a></dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Kesehatan </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">alan Tgk. Syech Abdur Rauf No.1, Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunit');?>">Apotek Pendidikan</a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Kesehatan </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">alan Tgk. Syech Abdur Rauf No.1, Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -649,12 +649,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunitdua');?>">Rumah Sakit Hewan </a></dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Kesehataan </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Jl. Tgk. Hasan Krueng Kalee No.4, Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunitdua');?>">Rumah Sakit Hewan </a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Kesehataan </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Jl. Tgk. Hasan Krueng Kalee No.4, Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -670,12 +670,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8"><a href="<?php echo site_url('bisnis/detailunitlima');?>">Klinik Pratama </a></dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Kesehatan </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunitlima');?>">Klinik Pratama </a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Kesehatan </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
                         </dl>
                     </div> 
                 </div>
@@ -696,18 +696,18 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/39.jpg') ?>" height="220px"  alt="Card image cap">
+                        <img class="card-img-top picbiss" src="<?php echo base_url('assets/img/39.jpg') ?>"  alt="Card image cap">
                          
                             <div class="overlay">
                                 <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -720,12 +720,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div> 
@@ -745,12 +745,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -771,12 +771,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl>
                     </div> 
                 </div>
@@ -795,12 +795,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <!-- <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl> -->
                     </div> 
                 </div> 
@@ -820,12 +820,12 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                     </div>
                     <div class="card-body"> 
                     <!-- <dl class="row">
-                            <dt class="col-sm-4">Unit Bisnis</dt>
-                            <dd class="col-sm-8">Lorem ipsum </dd>
-                            <dt class="col-sm-4">Jenis Usaha</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor </dd>
-                            <dt class="col-sm-4">Lokasi</dt>
-                            <dd class="col-sm-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8">Lorem ipsum </dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor </dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
                         </dl> -->
                     </div> 
                 </div>
@@ -836,15 +836,15 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col mb-4">
                     <div class="card">
-                        <img src="<?php echo base_url('assets/img/55.png ') ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo base_url('assets/img/55.png ') ?>" class="card-img-top fotokerja" alt="...">
                             <div class="card-body">
                                 <dl class="row">
-                                    <dt class="col-sm-3">Unit Bisnis</dt>
-                                    <dd class="col-sm-9">Ruko 2 Lantai</dd>
-                                    <dt class="col-sm-3">Spesifikasi</dt>
-                                    <dd class="col-sm-9">2 Lantai pinggir jalan kota</dd>
-                                    <dt class="col-sm-3">Lokasi</dt>
-                                    <dd class="col-sm-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                                    <dt class="col-md-3">Unit Bisnis</dt>
+                                    <dd class="col-md-9">Ruko 2 Lantai</dd>
+                                    <dt class="col-md-3">Spesifikasi</dt>
+                                    <dd class="col-md-9">2 Lantai pinggir jalan kota</dd>
+                                    <dt class="col-md-3">Lokasi</dt>
+                                    <dd class="col-md-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
                                 </dl>
                                 <button type="button" class="btn btnbarunya"><img src="<?php echo base_url('assets/img/wa2.png ') ?>"> Hubungi Kami</button> 
                             </div>
@@ -852,15 +852,15 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                 </div>
                 <div class="col mb-4">
                     <div class="card">
-                        <img src="<?php echo base_url('assets/img/58.png ') ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo base_url('assets/img/58.png ') ?>" class="card-img-top fotokerja" alt="...">
                             <div class="card-body">
                                 <dl class="row">
-                                    <dt class="col-sm-3">Unit Bisnis</dt>
-                                    <dd class="col-sm-9">Tanah Seluas 12 Hektar</dd>
-                                    <dt class="col-sm-3">Spesifikasi</dt>
-                                    <dd class="col-sm-9">12 Hektar jauh dari pemukiman</dd>
-                                    <dt class="col-sm-3">Lokasi</dt>
-                                    <dd class="col-sm-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                                    <dt class="col-md-3">Unit Bisnis</dt>
+                                    <dd class="col-md-9">Tanah Seluas 12 Hektar</dd>
+                                    <dt class="col-md-3">Spesifikasi</dt>
+                                    <dd class="col-md-9">12 Hektar jauh dari pemukiman</dd>
+                                    <dt class="col-md-3">Lokasi</dt>
+                                    <dd class="col-md-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
                                 </dl>
                                 <button type="button" class="btn btnbarunya"><img src="<?php echo base_url('assets/img/wa2.png ') ?>"> Hubungi Kami</button> 
                             </div>
@@ -868,15 +868,15 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                 </div>
                 <div class="col mb-4">
                     <div class="card">
-                        <img src="<?php echo base_url('assets/img/55.png ') ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo base_url('assets/img/55.png ') ?>" class="card-img-top fotokerja" alt="...">
                             <div class="card-body">
                                 <dl class="row">
-                                    <dt class="col-sm-3">Unit Bisnis</dt>
-                                    <dd class="col-sm-9">Ruko 2 Lantai</dd>
-                                    <dt class="col-sm-3">Spesifikasi</dt>
-                                    <dd class="col-sm-9">2 Lantai pinggir jalan kota</dd>
-                                    <dt class="col-sm-3">Lokasi</dt>
-                                    <dd class="col-sm-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                                    <dt class="col-md-3">Unit Bisnis</dt>
+                                    <dd class="col-md-9">Ruko 2 Lantai</dd>
+                                    <dt class="col-md-3">Spesifikasi</dt>
+                                    <dd class="col-md-9">2 Lantai pinggir jalan kota</dd>
+                                    <dt class="col-md-3">Lokasi</dt>
+                                    <dd class="col-md-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
                                 </dl>
                             <button type="button" class="btn btnbarunya"><img src="<?php echo base_url('assets/img/wa2.png ') ?>"> Hubungi Kami</button> 
                         </div>
@@ -884,15 +884,15 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                 </div>
                 <div class="col mb-4">
                     <div class="card">
-                        <img src="<?php echo base_url('assets/img/58.png ') ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo base_url('assets/img/58.png ') ?>" class="card-img-top fotokerja" alt="...">
                             <div class="card-body">
                                 <dl class="row">
-                                    <dt class="col-sm-3">Unit Bisnis</dt>
-                                    <dd class="col-sm-9">Tanah Seluas 12 Hektar</dd>
-                                    <dt class="col-sm-3">Spesifikasi</dt>
-                                    <dd class="col-sm-9">12 Hektar jauh dari pemukiman</dd>
-                                    <dt class="col-sm-3">Lokasi</dt>
-                                    <dd class="col-sm-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                                    <dt class="col-md-3">Unit Bisnis</dt>
+                                    <dd class="col-md-9">Tanah Seluas 12 Hektar</dd>
+                                    <dt class="col-md-3">Spesifikasi</dt>
+                                    <dd class="col-md-9">12 Hektar jauh dari pemukiman</dd>
+                                    <dt class="col-md-3">Lokasi</dt>
+                                    <dd class="col-md-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
                                 </dl>
                                 <button type="button" class="btn btnbarunya"><img src="<?php echo base_url('assets/img/wa2.png ') ?>"> Hubungi Kami</button> 
                             </div>
@@ -900,16 +900,16 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                 </div>
                 <div class="col mb-4">
                     <div class="card">
-                        <img src="<?php echo base_url('assets/img/55.png ') ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo base_url('assets/img/55.png ') ?>" class="card-img-top fotokerja" alt="...">
                             <div class="card-body">
                                 <dl class="row">
-                                    <dt class="col-sm-3">Unit Bisnis</dt>
-                                    <dd class="col-sm-9">Ruko 2 Lantai</dd>
-                                    <dt class="col-sm-3">Spesifikasi</dt>
-                                    <dd class="col-sm-9">2 Lantai pinggir jalan kota</dd>
-                                    <dt class="col-sm-3">Lokasi
+                                    <dt class="col-md-3">Unit Bisnis</dt>
+                                    <dd class="col-md-9">Ruko 2 Lantai</dd>
+                                    <dt class="col-md-3">Spesifikasi</dt>
+                                    <dd class="col-md-9">2 Lantai pinggir jalan kota</dd>
+                                    <dt class="col-md-3">Lokasi
                                     </dt>
-                                    <dd class="col-sm-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                                    <dd class="col-md-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
                                 </dl>
                                 <button type="button" class="btn btnbarunya"><img src="<?php echo base_url('assets/img/wa2.png ') ?>"> Hubungi Kami</button> 
                             </div>
@@ -917,15 +917,15 @@ UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-st
                 </div>
                 <div class="col mb-4">
                     <div class="card">
-                        <img src="<?php echo base_url('assets/img/58.png ') ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo base_url('assets/img/58.png ') ?>" class="card-img-top fotokerja" alt="...">
                             <div class="card-body">
                                 <dl class="row">
-                                    <dt class="col-sm-3">Unit Bisnis</dt>
-                                    <dd class="col-sm-9">Tanah Seluas 12 Hektar</dd>
-                                    <dt class="col-sm-3">Spesifikasi</dt>
-                                    <dd class="col-sm-9">12 Hektar jauh dari pemukiman</dd>
-                                    <dt class="col-sm-3">Lokasi</dt>
-                                    <dd class="col-sm-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
+                                    <dt class="col-md-3">Unit Bisnis</dt>
+                                    <dd class="col-md-9">Tanah Seluas 12 Hektar</dd>
+                                    <dt class="col-md-3">Spesifikasi</dt>
+                                    <dd class="col-md-9">12 Hektar jauh dari pemukiman</dd>
+                                    <dt class="col-md-3">Lokasi</dt>
+                                    <dd class="col-md-9">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 24352</dd>
                                 </dl>
                             <button type="button" class="btn btnbarunya"><img src="<?php echo base_url('assets/img/wa2.png ') ?>"> Hubungi Kami</button> 
                             </div>

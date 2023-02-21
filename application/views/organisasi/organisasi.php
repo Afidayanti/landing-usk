@@ -26,13 +26,13 @@
 
           <span>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v1.png ') ?>"></a>
+            <a href="#"><img class="iconorganisasi" src="<?php echo base_url('assets/img/v1.png ') ?>"></a>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v2.png ') ?>"></a>
+            <a href="#"><img  class="iconorganisasi" src="<?php echo base_url('assets/img/v2.png ') ?>"></a>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v3.png ') ?>"></a> 
+            <a href="#"><img class="iconorganisasi" src="<?php echo base_url('assets/img/v3.png ') ?>"></a> 
 
-             <a href="#" class="ml-5">  SEE INFO <img class="ml-5" src="<?php echo base_url('assets/img/v4.png ') ?>"></a> 
+             <a href="#" class="ml-5">  SEE INFO <img class="ml-5 iconorganisasi" src="<?php echo base_url('assets/img/v4.png ') ?>"></a> 
 
 
           </span>
@@ -58,13 +58,13 @@
 
           <span>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v1.png ') ?>"></a>
+            <a href="#"><img class="iconorganisasi" src="<?php echo base_url('assets/img/v1.png ') ?>"></a>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v2.png ') ?>"></a>
+            <a href="#"><img  class="iconorganisasi" src="<?php echo base_url('assets/img/v2.png ') ?>"></a>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v3.png ') ?>"></a> 
+            <a href="#"><img class="iconorganisasi" src="<?php echo base_url('assets/img/v3.png ') ?>"></a> 
 
-             <a href="#" class="ml-5">  SEE INFO <img class="ml-5" src="<?php echo base_url('assets/img/v4.png ') ?>"></a> 
+             <a href="#" class="ml-5">  SEE INFO <img class="ml-5 iconorganisasi" src="<?php echo base_url('assets/img/v4.png ') ?>"></a> 
 
           </span>
 
@@ -88,13 +88,13 @@
 
           <span>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v1.png ') ?>"></a>
+            <a href="#"><img class="iconorganisasi" src="<?php echo base_url('assets/img/v1.png ') ?>"></a>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v2.png ') ?>"></a>
+            <a href="#"><img  class="iconorganisasi" src="<?php echo base_url('assets/img/v2.png ') ?>"></a>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v3.png ') ?>"></a> 
+            <a href="#"><img class="iconorganisasi" src="<?php echo base_url('assets/img/v3.png ') ?>"></a> 
 
-             <a href="#" class="ml-5">  SEE INFO <img class="ml-5" src="<?php echo base_url('assets/img/v4.png ') ?>"></a> 
+             <a href="#" class="ml-5">  SEE INFO <img class="ml-5 iconorganisasi" src="<?php echo base_url('assets/img/v4.png ') ?>"></a> 
 
           </span>
 
@@ -119,11 +119,11 @@
 
            <span>
 
-              <a href="#"><img src="<?php echo base_url('assets/img/v1.png ') ?>"></a>
+              <a href="#"><img class="iconorganisasi" src="<?php echo base_url('assets/img/v1.png ') ?>"></a>
 
-              <a href="#"><img src="<?php echo base_url('assets/img/v2.png ') ?>"></a>
+              <a href="#"><img  class="iconorganisasi" src="<?php echo base_url('assets/img/v2.png ') ?>"></a>
 
-              <a href="#"><img src="<?php echo base_url('assets/img/v3.png ') ?>"></a> 
+              <a href="#"><img class="iconorganisasi" src="<?php echo base_url('assets/img/v3.png ') ?>"></a> 
 
                <a href="#" class="ml-5">  SEE INFO <img class="ml-5" src="<?php echo base_url('assets/img/v4.png ') ?>"></a> 
 
@@ -151,13 +151,13 @@
 
           <span>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v1.png ') ?>"></a>
+            <a href="#"><img class="iconorganisasi" src="<?php echo base_url('assets/img/v1.png ') ?>"></a>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v2.png ') ?>"></a>
+            <a href="#"><img  class="iconorganisasi" src="<?php echo base_url('assets/img/v2.png ') ?>"></a>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v3.png ') ?>"></a> 
+            <a href="#"><img class="iconorganisasi" src="<?php echo base_url('assets/img/v3.png ') ?>"></a> 
 
-             <a href="#" class="ml-5">  SEE INFO <img class="ml-5" src="<?php echo base_url('assets/img/v4.png ') ?>"></a> 
+             <a href="#" class="ml-5">  SEE INFO <img class="ml-5 iconorganisasi" src="<?php echo base_url('assets/img/v4.png ') ?>"></a> 
 
           </span> 
 
@@ -183,11 +183,11 @@
 
           <span>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v1.png ') ?>"></a>
+            <a href="#"><img class="iconorganisasi" src="<?php echo base_url('assets/img/v1.png ') ?>"></a>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v2.png ') ?>"></a>
+            <a href="#"><img  class="iconorganisasi" src="<?php echo base_url('assets/img/v2.png ') ?>"></a>
 
-            <a href="#"><img src="<?php echo base_url('assets/img/v3.png ') ?>"></a> 
+            <a href="#"><img class="iconorganisasi" src="<?php echo base_url('assets/img/v3.png ') ?>"></a> 
 
             <a href="#" class="ml-5">  SEE INFO <img class="ml-5" src="<?php echo base_url('assets/img/v4.png ') ?>"></a> 
 
@@ -259,7 +259,7 @@
 
           <div class="col-lg-5">
 
-              <img class="modal-contentto" id="img01" style="background-image:none; border-radius: 15px;"> 
+              <img class="modal-contentto picorg" id="img01" style="background-image:none; border-radius: 15px;"> 
 
           </div>
 
@@ -331,7 +331,7 @@
 
           <div class="col-lg-5">
 
-              <img class="modal-contentto" id="img02" style="background-image:none; border-radius: 15px;"> 
+              <img class="modal-contentto picorg" id="img02" style="background-image:none; border-radius: 15px;"> 
 
           </div>
 
@@ -399,7 +399,7 @@
 
           <div class="col-lg-5">
 
-              <img class="modal-contentto" id="img03" style="background-image:none; border-radius: 15px;"> 
+              <img class="modal-contentto picorg" id="img03" style="background-image:none; border-radius: 15px;"> 
 
           </div>
 
@@ -467,7 +467,7 @@
 
           <div class="col-lg-5">
 
-              <img class="modal-contentto" id="img04" style="background-image:none; border-radius: 15px;"> 
+              <img class="modal-contentto picorg" id="img04" style="background-image:none; border-radius: 15px;"> 
 
           </div>
 
@@ -535,7 +535,7 @@
 
           <div class="col-lg-5">
 
-              <img class="modal-contentto" id="img05" style="background-image:none; border-radius: 15px;"> 
+              <img class="modal-contentto picorg" id="img05" style="background-image:none; border-radius: 15px;"> 
 
           </div>
 
@@ -603,7 +603,7 @@
 
           <div class="col-lg-5">
 
-              <img class="modal-contentto" id="img06" style="background-image:none; border-radius: 15px;"> 
+              <img class="modal-contentto picorg" id="img06" style="background-image:none; border-radius: 15px;"> 
 
           </div>
 
