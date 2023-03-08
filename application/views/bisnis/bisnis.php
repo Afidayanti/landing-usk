@@ -33,7 +33,11 @@
     </div>
 
   </div>
-
+    <?php 
+        foreach ($getAllBisnis as $g) {
+            
+        }
+    ?>
     <!-- <div class="tab">
         <buttonto type="button" class="buttonto buttonto1 active" onclick="openCity(event, 'SUB')">Semua Unit Bisnis</buttonto>
         <buttonto type="button" class="buttonto buttonto1" onclick="openCity(event, 'BA')">Bisnis Akademik</buttonto>
@@ -43,74 +47,32 @@
         <div class="tabcontent" id="SUB">
         <!-- isi konten  -->
             <div class="card-deck">
+                <?php 
+                foreach ($getAllBisnis as $g) { ?>
+            
+                       
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top picbis" src="<?php echo base_url('assets/img/24.jpg') ?>"  alt="Card image cap">
+                        <img class="card-img-top picbis" src="<?=base_url()?>foto/<?=$g->foto_unit;?>"  alt="Card image cap">
                         
                             <div class="overlay">
-                                <div class="textbaru">Gedung AAC (Academic Activity Center) Prof. Dr. Dayan Dawood, MA yang selanjutnya disebut Gedung AAC dibangun pada tahun 2000 yang merupakan hibah dari Pemerintah Jepang. Tujuan utama pembangunan gedung ini adalah untuk mendukung berbagai kegiatan akademik dan administrasi yang dilaksanakan oleh pihak Rektorat Universitas Syiah Kuala. 
+                                <div class="textbaru"><?=$g->detail?> 
                                 </div>
                             </div>  
                     </div>
+                    <!-- href="<?php echo site_url('bisnis/detailunittiga');?>" -->
                     <div class="card-body"> 
                         <dl class="row">
                             <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunittiga');?>">Academic Activity Center </a></dd>
+                            <dd class="col-md-8"><a ><?=$g->nama_unit?></a></dd>
                             <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Pendidikan</dd>
+                            <dd class="col-md-8"><?=$g->jenis_usaha?></dd>
                             <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
+                            <dd class="col-md-8"><?=$g->lokasi?></dd>
                         </dl>
                     </div> 
                 </div>
-                <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/49.jpeg') ?>" alt="Card image cap">
-                         
-                            <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
-                                </div>
-                            </div>   
-                    </div>
-                    <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8">Lorem ipsum </dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
-                        </dl>
-                    </div> 
-                </div>
-                <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/23.jpg') ?>" alt="Card image cap">
-                         
-                            <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
-                                </div>
-                            </div>   
-                    </div>
-                    <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8">Lorem ipsum </dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
-                        </dl>
-                    </div> 
-                </div>
+              <?php } ?>
             </div>
             <div class="card-deck">
                 <div class="card">
@@ -185,7 +147,8 @@
             <div class="card-deck">
                 <div class="card">
                     <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/28.JPG') ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php echo base_url('assets/img/
+                        .JPG') ?>" alt="Card image cap">
                         
                             <div class="overlay">
                                 <div class="textbaru">

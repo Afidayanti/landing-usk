@@ -34,14 +34,16 @@
     </div>
 
   </div>
-
+  <?php foreach ($getAllBerita as $b) { ?>
+    
+  <?php } ?>
     <div class="tabcontent mt-5 active" id="BT"> 
 
       <div class="row">
 
         <div class="col-lg-8">
 
-          <img src="<?php echo base_url('assets/img/45.png ') ?>" class="card-img-top" alt="..."  style="border-top-right-radius: 30px">
+          <img src="<?=base_url()?>foto/<?=$b->foto;?>" class="card-img-top " alt="..."  style="border-top-right-radius: 30px; width: 730px; height: 395px;">
 
         </div>
 
@@ -49,7 +51,7 @@
 
           <div class="card-body">
 
-            <h5 class="card-title"><b><a href="<?php echo site_url('berita/detail');?>">BSI Gandeng ARC USK Perkuat Budidaya Nilam Aceh</a></b></h5>
+            <h5 class="card-title"><b><a href="<?php echo site_url('berita/detail');?>"><?=$b->judul?></a></b></h5>
 
             <div class="row mx-md-n5 my-3">
 
@@ -65,7 +67,7 @@
 
                 <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
-                  <span>6 September 2022</span>
+                  <span><?=$b->tgl_upload?></span>
 
               </div>
 
@@ -75,11 +77,7 @@
 
               <small class="text-muted">
 
-                Banda Aceh (Waspada Aceh) – PT Bank Syariah Indonesia Tbk (BSI) bersama BSI Maslahat menjalin kerja sama dengan Atsiri Research Center (ARC) Universitas Syiah Kuala (ASK), untuk penguatan kapasitas pelaku usaha budidaya nilam di wilayah Aceh.
-
-                Kerja sama ini juga diharapkan bisa meningkatkan kualitas minyak nilam Aceh yang merupakan komoditas unggulan Indonesia dan mendukung pemulihan ekonomi melalui program pemberdayaan.
-
-                Direktur Sales & Distribution Bank BSI, Anton Sukarna, mengatakan dalam kerja sama ini, BSI dan BSI Maslahat berperan melaksanakan program UMKM BSI bagi masyarakat pelaku budidaya nilam di wilayah Aceh.</small>
+                <?=substr($b->berita, 0, 600)?><a href="">  Selengkapnya......</a></small>
 
             </div>
 

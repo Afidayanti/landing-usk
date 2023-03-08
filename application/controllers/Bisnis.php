@@ -4,13 +4,17 @@ class Bisnis extends CI_Controller {
     public function __construct()
     {
 		parent::__construct();
+    $this->load->Model('Auth_model' , 'am');
+    $this->load->library('session');
 	}
 
 	public function index()
 	{
+
+        $data['getAllBisnis']=$this->am->getAllBisnis();
         $this->load->view("landing/head");
         $this->load->view("landing/navbar");
-        $this->load->view("bisnis/bisnis");
+        $this->load->view("bisnis/bisnis",$data);
         $this->load->view("landing/footer");
         $this->load->view("landing/js");
 	}
