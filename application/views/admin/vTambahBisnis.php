@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Berita</title>
+    <title>Tambah Bisnis</title>
     <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -89,61 +89,55 @@
                                 <div class="page-wrapper">
 
                                     <div class="page-body">
-                                        
-
-                                        <div class="card">
-                                        <div class="card-header">
-                                            <h5>Berita</h5>
-                                            <!-- <span>use class <code>table</code> inside table element</span> -->
-                                            <div class="card-header-right"> 
-                                                 <a  class="btn btn-info" href="<?= base_url(); ?>dashboard/tambahBisnis">Tambah</a>    
-                                            <!-- <ul class="list-unstyled card-option">        <li><i class="icofont icofont-simple-left "></i></li>        <li><i class="icofont icofont-maximize full-card"></i></li>        <li><i class="icofont icofont-minus minimize-card"></i></li>        <li><i class="icofont icofont-refresh reload-card"></i></li>        <li><i class="icofont icofont-error close-card"></i></li>    </ul> -->
-                                                </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <!-- Basic Form Inputs card start -->
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5>Tambah Unit Bisnis</h5>
+                                                        <div class="card-block">
+                                                            <form method="POST" action="<?php echo base_url(); ?>dashboard/prosesTambahBisnis" enctype="multipart/form-data">
+                                                                <div class="form-group row">
+                                                                    <label class="col-sm-2 col-form-label">Nama Unit Bisnis</label>
+                                                                    <div class="col-sm-10">
+                                                                        <input type="text" name="nama" class="form-control"
+                                                                        placeholder="Masukkan Nama Unit">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group row">
+                                                                   <label class="col-sm-2 col-form-label">Upload Foto</label>
+                                                                       <div class="col-sm-10">
+                                                                            <input type="file"  name="dokumen_bukti" class="form-control">
+                                                                        </div>
+                                                                </div>
+                                                                <div class="form-group row">
+                                                                    <label class="col-sm-2 col-form-label">Jenis Usaha</label>
+                                                                    <div class="col-sm-10">
+                                                                        <input type="text" name="jenis_usaha" class="form-control"
+                                                                        placeholder="Masukkan Jenis Usaha">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group row">
+                                                                                <label class="col-sm-2 col-form-label">Alamat</label>
+                                                                                <div class="col-sm-10">
+                                                                                    <textarea rows="5" cols="5" name="lokasi" class="form-control"
+                                                                                    placeholder="Isi Alamat"></textarea>
+                                                                                </div>
+                                                                            </div>
+                                                                    <div class="form-group row">
+                                                                        <label class="col-sm-2 col-form-label">Kategori</label>
+                                                                        <div class="col-sm-10">
+                                                                            <select name="kategori" class="form-control">
+                                                                                <option value="">----------------</option>
+                                                                                <option value="1">Bisnis Akademik</option>
+                                                                                <option value="2">Bisnis Non Akademik</option>
+                                                                                <option value="3">Terbuka Kerjasama</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                            <button type="submit" class="btn btn-primary">Tambah</button>
+                                                                </form>
                                         </div>
-                                        <div class="card-block table-border-style">
-                                            <div class="table-responsive">
-                                                <table class="table">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>No</th>
-                                                            <th>Nama</th>
-                                                            <th>Foto</th>
-                                                            <th>Jenis Usaha</th>
-                                                            <th>Alamat</th>
-                                                            <th>Kategori</th>
-                                                            <th span="2">Aksi</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                       <?php foreach ($bisnis as $b) {?>
-
-                                                            <?php if ($b->kategori == 1) {
-                                                                $kategori="Bisnis Akademik";
-                                                            }if ($b->kategori == 2) {
-                                                                $kategori="Bisnis Non Akademik";
-                                                            }if ($b->kategori == 3) {
-                                                                $kategori="Terbuka Kerjasama";
-                                                            }
-                                                             ?>
-                                                        <tr>
-                                                            <!-- <th scope="row">1</th> -->
-                                                            <td><?=$b->nama_unit?></td>
-                                                            <td><Img style="width: 40px; heigth: 40px" src="<?=base_url()?>foto/<?=$b->foto_unit;?>"></td>
-                                                            <td><?=$b->jenis_usaha?></td>
-                                                            <td><?=$b->lokasi?></td>
-                                                            <td><?=$kategori?></td>
-                                                            <td><a class="btn btn-success" href=""></a>  <a class="btn btn-danger" href=""></a></td>
-                                                            
-                                                        </tr>    
-                                                        <?php } ?>
-                                                        
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-
-
-                                        
                                     </div>
 
                                 </div>
@@ -151,7 +145,6 @@
                         </div>
                     </div>
                 </div>
-               
             </div>
         </div>
 

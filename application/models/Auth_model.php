@@ -76,6 +76,33 @@ class Auth_model extends CI_Model {
       return $this->db->get('berita')->result();
     }
 
+    public function addDataUnitBisnis($data) {
+        return $this->db->insert('unit_bisnis', $data);
+    }
+    
+    public function bisnis()
+    {
+      return $this->db->get('unit_bisnis')->result();
+    }
+
+    public function addDataGaleri($data) {
+        return $this->db->insert('galeri', $data);
+    }
+    
+    public function galeri()
+    {
+      return $this->db->get('galeri')->result();
+    }
+
+    // public function addDataBerita($data) {
+    //     return $this->db->insert('berita', $data);
+    // }
+    
+    public function user()
+    {
+      return $this->db->get('user')->result();
+    }
+
 
     public function uploadDokumenBukti() {
         $config['upload_path'] = './foto/';

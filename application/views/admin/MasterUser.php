@@ -105,24 +105,27 @@
                                                 <table class="table">
                                                     <thead>
                                                         <tr>
-                                                            <th>No</th>
-                                                            <th>Foto</th>
-                                                            <th>Judul</th>
-                                                            <th>keterangan</th>
-                                                            <th>Tanggal Upload</th>
+                                                            <!-- <th>No</th> -->
+                                                            <th>Username</th>
+                                                            <th>Role</th>
                                                             <th span="2">Aksi</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
+                                                        <?php foreach ($user as $b) {?>
+
+                                                            <?php if ($b->role == 1) {
+                                                                $kategori="Admin";
+                                                            }
+                                                             ?>
                                                         <tr>
-                                                            <th scope="row">1</th>
-                                                            <td>Mark</td>
-                                                            <td>Otto</td>
-                                                            <td>@mdo</td>
-                                                            <td>@mdo</td>
-                                                            <td>@mdo</td>
+                                                            <!-- <th scope="row">1</th> -->
+                                                            <td><?=$b->username?></td>
+                                                            <td><?=$kategori?></td>
+                                                            <td><a class="btn btn-success" href=""></a>  <a class="btn btn-danger" href=""></a></td>
                                                             
-                                                        </tr>
+                                                        </tr>    
+                                                        <?php } ?>
                                                         
                                                     </tbody>
                                                 </table>

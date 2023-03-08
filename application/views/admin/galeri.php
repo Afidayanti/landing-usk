@@ -93,10 +93,10 @@
 
                                         <div class="card">
                                         <div class="card-header">
-                                            <h5>Berita</h5>
+                                            <h5>Galeri</h5>
                                             <!-- <span>use class <code>table</code> inside table element</span> -->
                                             <div class="card-header-right"> 
-                                                <a  class="button" href="">dsini ajaa</a>    
+                                              <a  class="btn btn-info" href="<?= base_url(); ?>dashboard/tambahGaleri">Tambah</a>    
                                             <!-- <ul class="list-unstyled card-option">        <li><i class="icofont icofont-simple-left "></i></li>        <li><i class="icofont icofont-maximize full-card"></i></li>        <li><i class="icofont icofont-minus minimize-card"></i></li>        <li><i class="icofont icofont-refresh reload-card"></i></li>        <li><i class="icofont icofont-error close-card"></i></li>    </ul> -->
                                                 </div>
                                         </div>
@@ -105,24 +105,35 @@
                                                 <table class="table">
                                                     <thead>
                                                         <tr>
-                                                            <th>No</th>
-                                                            <th>Foto</th>
+                                                            <!-- <th>No</th> -->
                                                             <th>Judul</th>
+                                                            <th>Foto</th>
                                                             <th>keterangan</th>
-                                                            <th>Tanggal Upload</th>
+                                                            <th>Kategori</th>
                                                             <th span="2">Aksi</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
+                                                         <?php foreach ($galeri as $b) {?>
+
+                                                            <?php if ($b->kategori_galeri == 1) {
+                                                                $kategori="Produk";
+                                                            }if ($b->kategori_galeri == 2) {
+                                                                $kategori="Kegiatan";
+                                                            }if ($b->kategori_galeri == 3) {
+                                                                $kategori="Aset";
+                                                            }
+                                                             ?>
                                                         <tr>
-                                                            <th scope="row">1</th>
-                                                            <td>Mark</td>
-                                                            <td>Otto</td>
-                                                            <td>@mdo</td>
-                                                            <td>@mdo</td>
-                                                            <td>@mdo</td>
+                                                            <!-- <th scope="row">1</th> -->
+                                                            <td><?=$b->judul_galeri?></td>
+                                                            <td><Img style="width: 40px; heigth: 40px" src="<?=base_url()?>foto/<?=$b->foto_galeri;?>"></td>
+                                                            <td><?=$b->keterangan_galeri?></td>
+                                                            <td><?=$kategori?></td>
+                                                            <td><a class="btn btn-success" href=""></a>  <a class="btn btn-danger" href=""></a></td>
                                                             
-                                                        </tr>
+                                                        </tr>    
+                                                        <?php } ?>
                                                         
                                                     </tbody>
                                                 </table>

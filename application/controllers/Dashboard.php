@@ -71,16 +71,79 @@ class Dashboard extends CI_Controller {
 
     public function unitBisnis()
     {
-        $this->load->view("admin/unitBisnis");
+        $data['bisnis']=$this->am->bisnis();
+        $this->load->view("admin/unitBisnis",$data);
+    }
+
+    public function tambahBisnis()
+    {
+     $this->load->view("admin/vTambahBisnis");   
+    }
+
+    public function prosesTambahBisnis()
+    {
+        $nama = $this->input->post('nama');
+        $jenis_usaha = $this->input->post('jenis_usaha');
+        $lokasi = $this->input->post('lokasi');
+        $kategori = $this->input->post('kategori');
+        $upload = $this->am->uploadDokumenBukti();
+
+        
+        if ($upload['result'] == "success") {
+            $data = array(
+                'nama_unit' => $nama,
+                'jenis_usaha' => $jenis_usaha,
+                'lokasi' => $lokasi,
+                'kategori' => $kategori,
+                'foto_unit' => $upload['file']['file_name']
+            );
+            $addDataUnitBisnis = $this->am->addDataUnitBisnis($data);
+        }else{
+            $this->session->set_flashdata('messageAlert', $this->messageAlert('error', 'Gagal menambahkan '));
+            redirect(base_url().'dashboard/tambahBisnis');
+        }
+        $this->session->set_flashdata('messageAlert', $this->messageAlert('success', 'Berhasil menambahkan '));
+        redirect(base_url().'dashboard/unitBisnis');
     }
 
     public function galeri()
     {
-        $this->load->view("admin/galeri");
+        $data['galeri']=$this->am->galeri();
+        $this->load->view("admin/galeri",$data);
+    }
+
+    public function tambahGaleri()
+    {
+     $this->load->view("admin/vTambahGaleri");   
+    }
+
+    public function prosesTambahGaleri()
+    {
+        $judul = $this->input->post('judul');
+        $keterangan = $this->input->post('keterangan');
+        $kategori = $this->input->post('kategori');
+        $upload = $this->am->uploadDokumenBukti();
+
+        
+        if ($upload['result'] == "success") {
+            $data = array(
+                'judul_galeri' => $judul,
+                'keterangan_galeri' => $keterangan,
+                'kategori_galeri' => $kategori,
+                'foto_galeri' => $upload['file']['file_name']
+            );
+            $addDataGaleri = $this->am->addDataGaleri($data);
+        }else{
+            $this->session->set_flashdata('messageAlert', $this->messageAlert('error', 'Gagal menambahkan'));
+            redirect(base_url().'dashboard/tambahGaleri');
+        }
+        $this->session->set_flashdata('messageAlert', $this->messageAlert('success', 'Berhasil menambahkan'));
+        redirect(base_url().'dashboard/galeri');
     }
     public function masterUser()
     {
-        $this->load->view("admin/masterUser");
+        $data['user']=$this->am->user();
+        $this->load->view("admin/masterUser",$data);
     }
   
 }
