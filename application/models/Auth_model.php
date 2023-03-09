@@ -77,6 +77,11 @@ class Auth_model extends CI_Model {
       return $this->db->get('unit_bisnis')->result();
     }
 
+    public function beritaByid($id_berita)
+    {
+       return $this->db->get_where('berita', array('id_berita' => $id_berita))->result();
+    }
+
     public function addDataBerita($data) {
         return $this->db->insert('berita', $data);
     }

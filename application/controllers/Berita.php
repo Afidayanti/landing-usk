@@ -47,11 +47,13 @@ class Berita extends CI_Controller {
                         $this->load->view("landing/js");
 	}
 
-  public function detail()
+  public function detail($id_berita)
   {
+
+    $data['beritaByid']= $this->am->beritaByid($id_berita);
     $this->load->view("landing/head");
     $this->load->view("landing/navbar"); 
-    $this->load->view("berita/detailberita");
+    $this->load->view("berita/detailberita",$data);
     $this->load->view("landing/footer");
     $this->load->view("landing/js");
   }

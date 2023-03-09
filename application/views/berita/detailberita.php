@@ -1,3 +1,7 @@
+
+<?php foreach ($beritaByid as $b) {
+    
+} ?>
 <div class="jumbotron">  
             <h1>News</h1>
         </div>
@@ -5,9 +9,9 @@
 
         <div class="container p-5">
 
-            <img src="<?php echo base_url('assets/img/45.png ') ?>" class="rounded mx-auto d-block beritagambar" alt="...">
+            <img src="<?=base_url()?>foto/<?=$b->foto;?>" class="rounded mx-auto d-block beritagambar" alt="...">
 
-            <h1 class="p-4">BSI Gandeng ARC USK Perkuat Budidaya Nilam Aceh</h1>
+            <h1 class="p-4"><?=$b->judul?></h1>
 
                 <div class="row">
 
@@ -23,7 +27,7 @@
 
                         <i><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
-                        <span>6 September 2022</span>
+                        <span><?=$b->tgl_upload?></span>
 
                     </div>
 
@@ -31,11 +35,11 @@
 
                 <div class="mt-2" style="text-align: justify; font-color: black;">
 
-            <p>Banda Aceh (Waspada Aceh) – PT Bank Syariah Indonesia Tbk (BSI) bersama BSI Maslahat menjalin kerja sama dengan Atsiri Research Center (ARC) Universitas Syiah Kuala (ASK), untuk penguatan kapasitas pelaku usaha budidaya nilam di wilayah Aceh.</p>
+            <p><?=$b->berita?></p>
 
 
 
-            <p>Kerja sama ini juga diharapkan bisa meningkatkan kualitas minyak nilam Aceh yang merupakan komoditas unggulan Indonesia dan mendukung pemulihan ekonomi melalui program pemberdayaan.</p>
+            <!-- <p>Kerja sama ini juga diharapkan bisa meningkatkan kualitas minyak nilam Aceh yang merupakan komoditas unggulan Indonesia dan mendukung pemulihan ekonomi melalui program pemberdayaan.</p>
 
 
 
@@ -67,7 +71,7 @@
 
 
 
-            <p>“BSI Maslahat akan terus berkolaborasi  dengan ARC Universitas Syiah Kuala dan kembali menghidupkan gairah produksi minyak nilam. Harapannya dengan perjanjian kerja sama dengan Univesitas Syiah Kuala melalui ARC dapat mendampingi petani nilam agar mampu bersaing di pasar,” jelasnya. (*)</p>
+            <p>“BSI Maslahat akan terus berkolaborasi  dengan ARC Universitas Syiah Kuala dan kembali menghidupkan gairah produksi minyak nilam. Harapannya dengan perjanjian kerja sama dengan Univesitas Syiah Kuala melalui ARC dapat mendampingi petani nilam agar mampu bersaing di pasar,” jelasnya. (*)</p> -->
 
             </div>
 

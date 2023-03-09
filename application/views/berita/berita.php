@@ -51,7 +51,7 @@
 
           <div class="card-body">
 
-            <h5 class="card-title"><b><a href="<?php echo site_url('berita/detail');?>"><?=$b->judul?></a></b></h5>
+            <h5 class="card-title"><b><a href="<?php echo base_url('berita/detail');?>/<?=$b->id_berita?>"><?=$b->judul?></a></b></h5>
 
             <div class="row mx-md-n5 my-3">
 
