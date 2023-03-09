@@ -9,7 +9,7 @@
 
         <div class="container p-5">
 
-            <img src="<?=base_url()?>foto/<?=$b->foto;?>" class="rounded mx-auto d-block beritagambar" alt="...">
+            <img src="<?=base_url()?>foto/<?=$b->foto;?>" class="rounded mx-auto d-block beritagambar" alt="..." style="border-top-right-radius: 30px; width: 100%; height: auto;">
 
             <h1 class="p-4"><?=$b->judul?></h1>
 

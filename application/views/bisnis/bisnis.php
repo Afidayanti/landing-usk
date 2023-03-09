@@ -32,7 +32,7 @@
 
     </div>
 
-  </div>
+</div>
     <?php 
         foreach ($getAllBisnis as $g) {
             
@@ -44,23 +44,21 @@
         <buttonto type="button" class="buttonto buttonto1" onclick="openCity(event, 'BNA')">Bisnis Non - Akademik</buttonto> 
         <buttonto type="button" class="buttonto buttonto1" onclick="openCity(event, 'TK')">Terbuka Kerjasama</buttonto>
     </div>  -->
-        <div class="tabcontent" id="SUB">
+    <div class="tabcontent" id="SUB">
         <!-- isi konten  -->
-            <div class="card-deck">
+        <div class="container-fluid pt-5">
+            <div class="row">
                 <?php 
                 foreach ($getAllBisnis as $g) { ?>
             
-                       
-                <div class="card">
+                <div class="col-sm-4">
                     <div class="containerbarunya">
-                        <img class="card-img-top picbis" src="<?=base_url()?>foto/<?=$g->foto_unit;?>"  alt="Card image cap">
-                        
-                            <div class="overlay">
-                                <div class="textbaru"><?=$g->detail?> 
-                                </div>
-                            </div>  
+                            <img class="card-img-top picbis" src="<?=base_url()?>foto/<?=$g->foto_unit;?>"  alt="Card image cap">
+                                <!-- <div class="overlay">
+                                    <div class="textbaru"><?=$g->detail?> 
+                                    </div>
+                                </div>   -->
                     </div>
-                    <!-- href="<?php echo site_url('bisnis/detailunittiga');?>" -->
                     <div class="card-body"> 
                         <dl class="row">
                             <dt class="col-md-4">Unit Bisnis</dt>
@@ -72,296 +70,10 @@
                         </dl>
                     </div> 
                 </div>
-              <?php } ?>
+                 <?php } ?>
             </div>
-            <!-- <div class="card-deck">
-                <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/25.JPG') ?>" alt="Card image cap">
-                        
-                            <div class="overlay">
-                                <div class="textbaru">Apotek Pendidikan Universitas Syiah Kuala merupakan unit bisnis yang diremdikan pada 15 Juni 2022 dan dikelola di bawah Badan Pengembangan Bisnis dan Usaha (BPBU) Universitas Syiah Kuala Banda Aceh
-                                </div>
-                            </div> 
-                    </div>
-                    <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunit');?>">Apotek Pendidikan</a></dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Kesehatan </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">alan Tgk. Syech Abdur Rauf No.1, Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
-                        </dl>
-                    </div> 
-                </div>
-                <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/26.JPG') ?>" alt="Card image cap">
-                         
-                            <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
-                                </div>
-                            </div>   
-                    </div>
-                    <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8">Lorem ipsum </dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
-                        </dl>
-                    </div> 
-                </div>
-                <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/27.JPG') ?>" alt="Card image cap">
-                         
-                            <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
-                                </div>
-                            </div>  
-                    </div>
-                    <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8">Lorem ipsum </dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
-                        </dl>
-                    </div> 
-                </div>
-            </div> -->
-            <!-- <div class="card-deck">
-                <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/
-                        .JPG') ?>" alt="Card image cap">
-                        
-                            <div class="overlay">
-                                <div class="textbaru">
-UPT Bahasa is a technical implementing unit at Universitas Syiah Kuala, a non-structural institution entrusted with assisting the university’s work program through the provision of language teaching and testing services.
-                                </div>
-                            </div>   
-                    </div> -->
-                    <!-- <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunitempat');?>">UPT Bahasa </a></dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Pendidikan </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
-                        </dl>
-                    </div>  -->
-                </div>
-                <!-- <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/29.JPG') ?>" alt="Card image cap">
-                         
-                            <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
-                                </div>
-                            </div>   
-                    </div>
-                    <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8">Lorem ipsum </dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
-                        </dl>
-                    </div> 
-                </div>  -->
-                
-                <!-- <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/40.JPG') ?>" alt="Card image cap">
-                         
-                            <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
-                                </div>
-                            </div>   
-                    </div>
-                    <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8">Lorem ipsum </dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
-                        </dl>
-                    </div> 
-                </div> -->
-            </div>
-            <!-- <div class="card-deck">
-                <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/33.JPG') ?>" alt="Card image cap">
-                         
-                            <div class="overlay">
-                                <div class="textbaru">Rumah sakit hewan pendidikan Prof. Dr. Noerjanto Fakultas Kedokteran Hewan Universitas Syiah Kuala didirikan berdasarkan Surat Keputusan Rektor Universitas Syiah Kuala Nomor. 2317 Tahun 2013 tentang Pembentukan Rumah Sakit Hewan Prof. Dr. Noerjanto Pada Fakultas Kedokteran Hewan Universitas Syiah Kuala. 
-                                </div>
-                            </div>   
-                    </div>
-                    <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunitdua');?>">Rumah Sakit Hewan </a></dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Kesehataan </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Jl. Tgk. Hasan Krueng Kalee No.4, Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
-                        </dl>
-                    </div> 
-                </div>
-                <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/34.JPG') ?>" alt="Card image cap">
-                         
-                            <div class="overlay">
-                                <div class="textbaru">Klinik Pratama dr. T. Makmur Mohd. Zein adalah salah satu Klinik Pratama Pemerintah dibawah naungan Universitas Syiah Kuala di Banda Aceh. Bertujuan untuk memberikan pelayanan Kesehatan yang bermutu dan berkesinambungan yang berorientasi pada keselamatan dan kepuasan pasien.
-                                </div>
-                            </div>  
-                    </div>
-                    <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8"><a href="<?php echo site_url('bisnis/detailunitlima');?>">Klinik Pratama </a></dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Kesehatan </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh</dd>
-                        </dl>
-                    </div> 
-                </div>
-                <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/35.JPG') ?>" alt="Card image cap">
-                         
-                            <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
-                                </div>
-                            </div>   
-                    </div>
-                    <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8">Lorem ipsum </dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
-                        </dl>
-                    </div> 
-                </div>
-            </div> -->
-
-            <!-- <div class="card-deck">
-                <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top" src="<?php echo base_url('assets/img/36.jpg') ?>" alt="Card image cap">
-                         
-                            <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
-                                </div>
-                            </div>   
-                    </div>
-                    <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8">Lorem ipsum </dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
-                        </dl>
-                    </div> 
-                </div>
-                <div class="card">
-                    <div class="containerbarunya">
-                        <img class="card-img-top picbiss" src="<?php echo base_url('assets/img/39.JPG') ?>" alt="Card image cap">
-                         
-                            <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
-                                </div>
-                            </div>  
-                    </div>
-                    <div class="card-body"> 
-                    <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8">Lorem ipsum </dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
-                        </dl>
-                    </div> 
-                </div>
-                
-                <div class="card">
-                    <div class="containerbarunya">
-                        <!-- <img class="card-img-top" src="<?php echo base_url('assets/img/40.JPG') ?>" alt="Card image cap">
-                         
-                            <div class="overlay">
-                                <div class="textbaru">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Faucibus lectus massa amet interdum cras justo, purus. 
-                                    Nunc magna massa quam erat tellus nec urna. 
-                                    Sollicitudin sit quis varius suscipit pharetra tellus mauris, 
-                                    scelerisque. Ultrices condimentum potenti sed malesuada lectus eu.
-                                </div>
-                            </div>    -->
-                    </div>
-                    <div class="card-body"> 
-                    <!-- <dl class="row">
-                            <dt class="col-md-4">Unit Bisnis</dt>
-                            <dd class="col-md-8">Lorem ipsum </dd>
-                            <dt class="col-md-4">Jenis Usaha</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor </dd>
-                            <dt class="col-md-4">Lokasi</dt>
-                            <dd class="col-md-8">Lorem ipsum dolor sit amet consectetur adipisicing elit</dd>
-                        </dl> -->
-                    </div> 
-                </div>
-            </div>  -->
-        </div>
-      
-        <!-- <div id="BA"  -->
+        </div> 
+    </div>
 </div>
 
 <script>

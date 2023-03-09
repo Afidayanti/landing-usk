@@ -43,7 +43,7 @@
 
         <div class="col-lg-8">
 
-          <img src="<?=base_url()?>foto/<?=$b->foto;?>" class="card-img-top " alt="..."  style="border-top-right-radius: 30px; width: 730px; height: 395px;">
+          <img src="<?=base_url()?>foto/<?=$b->foto;?>" class="card-img-top " alt="..."  style="border-top-right-radius: 30px; width: 100%; height: auto;">
 
         </div>
 
@@ -99,7 +99,7 @@
 
                     <div class="col-px-md-5">
 
-                      <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <i class="cobaaa pl-5"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
                       <span>Admin</span>
 
@@ -107,7 +107,7 @@
 
                     <div class="col-px-md-2">
 
-                      <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <i class="cobaaa pl-5"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
                       <span>6 September 2022</span>
 
@@ -143,7 +143,7 @@
 
                     <div class="col-px-md-5">
 
-                      <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <i class="cobaaa pl-5"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
                       <span>Admin</span>
 
@@ -151,7 +151,7 @@
 
                     <div class="col-px-md-2">
 
-                      <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <i class="cobaaa pl-5"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
                       <span>6 September 2022</span>
 
@@ -191,7 +191,7 @@
 
                       <div class="col-px-md-5">
 
-                        <i><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                        <i  class="cobaaa pl-5"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
                         <span>Admin</span>
 
@@ -199,7 +199,7 @@
 
                       <div class="col-px-md-2">
 
-                        <i><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                        <i class="cobaaa pl-5"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
 
                         <span>6 September 2022</span>
 
