@@ -2,7 +2,34 @@
 <div class="jumbotron">  
             <h1>Gallery</h1>
         </div>
-    <div class="container-fluid">
+        <div class="container-fluid pt-5">
+            <div class="row">
+
+                <div class="col-lg-4">
+
+                    <form class="nosubmit">
+
+                        <input class="nosubmit" type="search" placeholder="Search...">
+
+                    </form>
+
+                </div>
+
+                <div class="col-lg-8">
+
+                    <div class="tab">
+
+                        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'GP')" id="defaultOpen">Galeri Produk</btnto>
+
+                        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'KG')">Kegiatan</btnto>
+
+                        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'AS')">Asset</btnto>  
+
+                    </div>
+
+                </div>
+            </div>
+    
         <div class="card pt-5">
             <img class="card-img" src="<?php echo base_url('assets/img/produk6.JPG') ?>" alt="Card image">
             <!--  id="myImg" -->
