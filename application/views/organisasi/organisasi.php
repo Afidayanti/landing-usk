@@ -205,44 +205,94 @@
 
  <div class="p-5"> <div class="hrto"></div></div>
 
-  <div class="container text-center">
-
-    <h2 class="katato">Coordinator of Financial Planning and Reporting</h2>
-
-      <p class="katao">Hendra Halim, M.E.</p>
-
-      <h2 class="katato">Coordinator of Asset Management, Financing and Innovation</h2>
-
-      <p class="katao">Fathurrahman Anwar, SE., MBA</p>
-
-      <h2 class="katato">Coordinator of Human Resources</h2>
-
-      <p class="katao">Wida Yulia Viridanda, S.Psi</p>
-
-      <h2 class="katato">Coordinator of Commercial Business</h2>
-
-      <p class="katao">Sayyid Afdhal El Rahimi, S.Kel., M.Si</p>
-
-      <h2 class="katato">Coordinator of Service Business</h2>
-
-      <p class="katao">Dr. drg. Munifah, MARS.</p>
-
-      <h2 class="katato">Coordinator of Technology and Innovation</h2>
-
-      <p class="katao">Yudha Nurdin, ST.,MT</p>
-
-      <h2 class="katato">Coordinator of Branding and Marketing</h2>
-
-      <p class="katao">Dr. Wira Dharma, S.Si., M.P., M.Si</p>
-
-      <h2 class="katato">Coordinator of Cooperation and Networking</h2>
-
-      <p class="katao">Dr. Iskandar AS., S.Pd., M.A.</p>
-
-      <h2 class="katato">Coordinator of Monitoring and Evaluation</h2>
-
-      <p class="katao">Dinaroe, SE., MBA.,Ak.,CA</p>
-
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="teng">
+          <div class="cardto">
+            <img src="<?php echo base_url('assets/img/em.png ') ?>" class="card-img-top gambarbawahorganisasi"></a>
+          </div>
+          <h5 class="card-title">Hendra Halim, M.E</h5> 
+          <p class="kataw text-center pb-5">Coordinator of Financial Planning and Reporting</p>
+          </div>
+      </div> 
+      <div class="col-md-4">
+        <div class="teng">
+          <div class="cardto">
+            <img src="<?php echo base_url('assets/img/em.png ') ?>" class="card-img-top gambarbawahorganisasi"></a>
+          </div>
+          <h5 class="card-title">Fathurrahman Anwar, SE., MBA</h5> 
+          <p class="kataw text-center pb-5">Coordinator of Asset Management, Financing and Innovation</p>
+          </div>
+      </div> 
+      <div class="col-md-4">
+        <div class="teng">
+          <div class="cardto">
+            <img src="<?php echo base_url('assets/img/7.png ') ?>" class="card-img-top gambarbawahorganisasi"></a>
+          </div>
+          <h5 class="card-title">Wida Yulia Viridanda, S.Psi</h5> 
+          <p class="kataw text-center pb-5">Coordinator of Human Resources</p>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="teng">
+          <div class="cardto">
+            <img src="<?php echo base_url('assets/img/6.png ') ?>" class="card-img-top gambarbawahorganisasi"></a>
+          </div>
+          <h5 class="card-title">Sayyid Afdhal El Rahimi, S.Kel., M.Si</h5> 
+          <p class="kataw text-center pb-5">Coordinator of Commercial Business</p>
+          </div>
+      </div> 
+      <div class="col-md-4">
+        <div class="teng">
+          <div class="cardto">
+            <img src="<?php echo base_url('assets/img/em.png ') ?>" class="card-img-top gambarbawahorganisasi"></a>
+          </div>
+          <h5 class="card-title">Dr. drg. Munifah, MARS.</h5> 
+          <p class="kataw text-center pb-5">Coordinator of Service Business</p>
+          </div>
+      </div> 
+      <div class="col-md-4">
+        <div class="teng">
+          <div class="cardto">
+            <img src="<?php echo base_url('assets/img/10.png ') ?>" class="card-img-top gambarbawahorganisasi"></a>
+          </div>
+          <h5 class="card-title">Yudha Nurdin, ST.,MT</h5> 
+          <p class="kataw text-center pb-5">Coordinator of Technology and Innovation</p>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="teng">
+          <div class="cardto">
+            <img src="<?php echo base_url('assets/img/11.png ') ?>" class="card-img-top gambarbawahorganisasi"></a>
+          </div>
+          <h5 class="card-title">Dr. Wira Dharma, S.Si., M.P., M.Si</h5> 
+          <p class="kataw text-center pb-5">Coordinator of Branding and Marketing</p>
+          </div>
+      </div> 
+      <div class="col-md-4">
+        <div class="teng">
+          <div class="cardto">
+            <img src="<?php echo base_url('assets/img/8.png ') ?>" class="card-img-top gambarbawahorganisasi"></a>
+          </div>
+          <h5 class="card-title">Dr. Iskandar AS., S.Pd., M.A.</h5> 
+          <p class="kataw text-center pb-5">Coordinator of Cooperation and Networking</p>
+          </div>
+      </div> 
+      <div class="col-md-4">
+        <div class="teng">
+          <div class="cardto">
+            <img src="<?php echo base_url('assets/img/em.png ') ?>" class="card-img-top gambarbawahorganisasi"></a>
+          </div>
+          <h5 class="card-title">Dinaroe, SE., MBA.,Ak.,CA</h5> 
+          <p class="kataw text-center pb-5">Coordinator of Monitoring and Evaluation</p>
+          </div>
+      </div>
+    </div>
   </div>
 
   <div class="clearfix p-5"></div>

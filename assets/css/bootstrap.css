@@ -21393,6 +21393,17 @@ border-radius: 10px;
 
 }
 
+.teng { 
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.gambarbawahorganisasi{ 
+  width: 150px;  
+  height: 204px;  
+object-fit: cover; object-position: -10px 10%;
+}
 
 
 .text {
@@ -21417,7 +21428,7 @@ border-radius: 10px;
 
 } 
 
-
+ 
 
 .textbaru{
 
