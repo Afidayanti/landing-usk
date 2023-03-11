@@ -29,7 +29,9 @@
 
                 </div>
             </div>
-    
+        <?php foreach ($getAlldataGaleri as $g) {
+            # code...
+        } ?>
         <div class="card pt-5">
             <img class="card-img" src="<?php echo base_url('assets/img/produk6.JPG') ?>" alt="Card image"> 
             

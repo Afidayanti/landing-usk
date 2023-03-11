@@ -72,6 +72,11 @@ class Auth_model extends CI_Model {
       return $this->db->get('berita')->result();
     }
 
+    public function getAlldataGaleri()
+    {
+      return $this->db->get('galeri')->result();
+    }
+
     public function getAllBisnis()
     {
       return $this->db->get('unit_bisnis')->result();

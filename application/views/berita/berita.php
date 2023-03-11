@@ -22,7 +22,10 @@
    
   
     <div class="tabcontent mt-5 active" id="BT"> 
-      <!-- <div class="row"> 
+      <?php foreach ($getAllBerita as $b) { 
+          if ($b->hot_news==1) {
+        ?>
+        <div class="row"> 
         <div class="col-lg-8">
           <img src="<?=base_url()?>foto/<?=$b->foto;?>" class="card-img-top " alt="..."  style="border-top-right-radius: 30px; width: 100%; height: auto;">
         </div>
@@ -45,7 +48,10 @@
             </div>
           </div>
         </div>
-      </div> -->
+        <?php } } ?>
+      </div>
+      
+      
 
       <div class="row p-5">   
       <?php foreach ($getAllBerita as $b) { ?>
@@ -69,6 +75,116 @@
         </div>
         <?php } ?> 
       </div>
+
+      <div class="tabcontent mt-5 active" id="ARC"> 
+      <div class="row p-5">   
+      <?php foreach ($getAllBerita as $b) {  ?>
+         <?php if ($b->kategori_berita=1) {
+        ?>
+        <div class="col-lg-4">
+            <img src="<?=base_url()?>foto/<?=$b->foto;?>" class="card-img-top " alt="..."  style="border-top-right-radius: 30px; width: 100%; height: auto;">
+              <h5 class="card-title"><b><a href="<?php echo base_url('berita/detail');?>/<?=$b->id_berita?>"><?=$b->judul?></a></b></h5>
+                <div class="row mx-md-n5 my-3">
+                  <div class="col px-md-5">
+                    <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <span>Admin</span>
+                  </div>
+                  <div class="col px-md-3">
+                    <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <span><?=$b->tgl_upload?></span>
+                  </div>
+                </div>
+                <div class="text-justify">
+                  <small class="text-muted">
+                    <?=substr($b->berita, 0, 600)?><a href="">  Selengkapnya......</a></small>
+                </div>
+        </div>
+         <?php } ?>
+        <?php } ?> 
+        </div>
+      </div>
+
+      <div class="tabcontent mt-5 active" id="UP"> 
+      <div class="row p-5">   
+      <?php foreach ($getAllBerita as $b) {  
+         if ($b->kategori_berita==2) {
+        ?>
+        <div class="col-lg-4">
+            <img src="<?=base_url()?>foto/<?=$b->foto;?>" class="card-img-top " alt="..."  style="border-top-right-radius: 30px; width: 100%; height: auto;">
+              <h5 class="card-title"><b><a href="<?php echo base_url('berita/detail');?>/<?=$b->id_berita?>"><?=$b->judul?></a></b></h5>
+                <div class="row mx-md-n5 my-3">
+                  <div class="col px-md-5">
+                    <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <span>Admin</span>
+                  </div>
+                  <div class="col px-md-3">
+                    <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <span><?=$b->tgl_upload?></span>
+                  </div>
+                </div>
+                <div class="text-justify">
+                  <small class="text-muted">
+                    <?=substr($b->berita, 0, 600)?><a href="">  Selengkapnya......</a></small>
+                </div>
+        </div>
+        <?php } } ?> 
+        </div>
+      </div>
+
+      <div class="tabcontent mt-5 active" id="ADD"> 
+      <div class="row p-5">   
+      <?php foreach ($getAllBerita as $b) {  
+         if ($b->kategori_berita==3) {
+        ?>
+        <div class="col-lg-4">
+            <img src="<?=base_url()?>foto/<?=$b->foto;?>" class="card-img-top " alt="..."  style="border-top-right-radius: 30px; width: 100%; height: auto;">
+              <h5 class="card-title"><b><a href="<?php echo base_url('berita/detail');?>/<?=$b->id_berita?>"><?=$b->judul?></a></b></h5>
+                <div class="row mx-md-n5 my-3">
+                  <div class="col px-md-5">
+                    <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <span>Admin</span>
+                  </div>
+                  <div class="col px-md-3">
+                    <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <span><?=$b->tgl_upload?></span>
+                  </div>
+                </div>
+                <div class="text-justify">
+                  <small class="text-muted">
+                    <?=substr($b->berita, 0, 600)?><a href="">  Selengkapnya......</a></small>
+                </div>
+        </div>
+        <?php } } ?> 
+        </div>
+      </div>
+
+      <div class="tabcontent mt-5 active" id="RSP"> 
+      <div class="row p-5">   
+      <?php foreach ($getAllBerita as $b) {  
+         if ($b->kategori_berita==4) {
+        ?>
+        <div class="col-lg-4">
+            <img src="<?=base_url()?>foto/<?=$b->foto;?>" class="card-img-top " alt="..."  style="border-top-right-radius: 30px; width: 100%; height: auto;">
+              <h5 class="card-title"><b><a href="<?php echo base_url('berita/detail');?>/<?=$b->id_berita?>"><?=$b->judul?></a></b></h5>
+                <div class="row mx-md-n5 my-3">
+                  <div class="col px-md-5">
+                    <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <span>Admin</span>
+                  </div>
+                  <div class="col px-md-3">
+                    <i class="cobaaa"><iconify-icon icon="fluent:rectangle-landscape-28-filled" style="color: #d9d9d9;"></iconify-icon></i> 
+                      <span><?=$b->tgl_upload?></span>
+                  </div>
+                </div>
+                <div class="text-justify">
+                  <small class="text-muted">
+                    <?=substr($b->berita, 0, 600)?><a href="">  Selengkapnya......</a></small>
+                </div>
+        </div>
+        <?php } } ?> 
+        </div>
+      </div>
+
 
 
        
