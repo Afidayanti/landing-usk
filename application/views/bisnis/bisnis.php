@@ -33,11 +33,6 @@
     </div>
 
 </div>
-    <?php 
-        foreach ($getAllBisnis as $g) {
-            
-        }
-    ?>
     <!-- <div class="tab">
         <buttonto type="button" class="buttonto buttonto1 active" onclick="openCity(event, 'SUB')">Semua Unit Bisnis</buttonto>
         <buttonto type="button" class="buttonto buttonto1" onclick="openCity(event, 'BA')">Bisnis Akademik</buttonto>
@@ -71,6 +66,106 @@
                     </div> 
                 </div>
                  <?php } ?>
+            </div>
+        </div> 
+    </div>
+    <div class="tabcontent" id="BA">
+        <!-- isi konten  -->
+        <div class="container-fluid pt-5">
+            <div class="row">
+                <?php 
+                foreach ($getAllBisnis as $g) { ?>
+                <?php if ($g->kategori == 1) { ?>
+                  
+               
+                <div class="col-sm-4">
+                    <div class="containerbarunya">
+                            <img class="card-img-top picbis" src="<?=base_url()?>foto/<?=$g->foto_unit;?>"  alt="Card image cap">
+                                <!-- <div class="overlay">
+                                    <div class="textbaru"><?=$g->detail?> 
+                                    </div>
+                                </div>   -->
+                    </div>
+                    <div class="card-body"> 
+                        <dl class="row">
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a ><?=$g->nama_unit?></a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8"><?=$g->jenis_usaha?></dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8"><?=$g->lokasi?></dd>
+                        </dl>
+                    </div> 
+                </div>
+                <?php } ?>
+                <?php } ?>
+            </div>
+        </div> 
+    </div>
+    
+    <div class="tabcontent" id="BNA">
+        <!-- isi konten  -->
+        <div class="container-fluid pt-5">
+            <div class="row">
+                <?php 
+                foreach ($getAllBisnis as $g) { ?>
+                <?php if ($g->kategori == 2) { ?>
+                  
+               
+                <div class="col-sm-4">
+                    <div class="containerbarunya">
+                            <img class="card-img-top picbis" src="<?=base_url()?>foto/<?=$g->foto_unit;?>"  alt="Card image cap">
+                                <!-- <div class="overlay">
+                                    <div class="textbaru"><?=$g->detail?> 
+                                    </div>
+                                </div>   -->
+                    </div>
+                    <div class="card-body"> 
+                        <dl class="row">
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a ><?=$g->nama_unit?></a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8"><?=$g->jenis_usaha?></dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8"><?=$g->lokasi?></dd>
+                        </dl>
+                    </div> 
+                </div>
+                <?php } ?>
+                <?php } ?>
+            </div>
+        </div> 
+    </div>
+    <div class="tabcontent" id="TK">
+        <!-- isi konten  -->
+        <div class="container-fluid pt-5">
+            <div class="row">
+                <?php 
+                foreach ($getAllBisnis as $g) { ?>
+                <?php if ($g->kategori == 3) { ?>
+                  
+               
+                <div class="col-sm-4">
+                    <div class="containerbarunya">
+                            <img class="card-img-top picbis" src="<?=base_url()?>foto/<?=$g->foto_unit;?>"  alt="Card image cap">
+                                <!-- <div class="overlay">
+                                    <div class="textbaru"><?=$g->detail?> 
+                                    </div>
+                                </div>   -->
+                    </div>
+                    <div class="card-body"> 
+                        <dl class="row">
+                            <dt class="col-md-4">Unit Bisnis</dt>
+                            <dd class="col-md-8"><a ><?=$g->nama_unit?></a></dd>
+                            <dt class="col-md-4">Jenis Usaha</dt>
+                            <dd class="col-md-8"><?=$g->jenis_usaha?></dd>
+                            <dt class="col-md-4">Lokasi</dt>
+                            <dd class="col-md-8"><?=$g->lokasi?></dd>
+                        </dl>
+                    </div> 
+                </div>
+                <?php } ?>
+                <?php } ?>
             </div>
         </div> 
     </div>

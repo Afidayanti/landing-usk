@@ -35,7 +35,7 @@
 
                 <div class="mt-2" style="text-align: justify; font-color: black;">
 
-            <textarea><?=$b->berita?></textarea>
+            <p><?=$b->berita?></p>
 
 
 
