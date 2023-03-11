@@ -124,6 +124,16 @@
         </div>
 
         <hr class="hr-text" data-content="Asset">
+
+        <div class="row">
+            <div class="col-sm-4">
+                
+            </div>
+        </div>
+
+
+
+
         <div class="card-deck">
             <div class="card">
                 <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetsabang.jpg') ?>" alt="Card image cap">
