@@ -35,10 +35,17 @@
 
                 <div class="mt-2" style="text-align: justify; font-color: black;">
 
-            <p><?=$b->berita?></p>
+            <textarea><?=$b->berita?></textarea>
 
 
 
+            
+        
+
+ 
+ 
+
+ 
             <!-- <p>Kerja sama ini juga diharapkan bisa meningkatkan kualitas minyak nilam Aceh yang merupakan komoditas unggulan Indonesia dan mendukung pemulihan ekonomi melalui program pemberdayaan.</p>
 
 
