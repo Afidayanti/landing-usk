@@ -12,6 +12,7 @@
 <!-- <link rel="shortcut icon" href="<?= base_url();?>asset/img/bpuic.png"> -->
 <link rel="shortcut icon" href="<?php echo base_url('assets/img/bpuic.png') ?>">
 <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.css') ?>" type="text/css"/> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
  <title>Bisnis USK</title>
 </head>
 <body>  

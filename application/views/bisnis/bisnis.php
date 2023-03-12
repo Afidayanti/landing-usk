@@ -3,42 +3,21 @@
         </div>
 
 <div class="container-fluid p-5">
-
-<div class="row">
-
-    <div class="col-lg-4">
-
-      <form class="nosubmit">
-
-        <input class="nosubmit" type="search" placeholder="Search...">
-
-      </form>
-
-    </div>
-
-    <div class="col-lg-8">
-
-      <div class="tab">
-
-        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'SUB')" id="defaultOpen">Semua Unit Bisnis</btnto>
-
-        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'BA')">Bisnis Akademik</btnto>
-
-        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'BNA')">Bisnis Non - Akademik</btnto>  
-
-        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'TK')">Terbuka Kerjasama</btnto>
-
-      </div>
-
-    </div>
-
-</div>
-    <!-- <div class="tab">
-        <buttonto type="button" class="buttonto buttonto1 active" onclick="openCity(event, 'SUB')">Semua Unit Bisnis</buttonto>
-        <buttonto type="button" class="buttonto buttonto1" onclick="openCity(event, 'BA')">Bisnis Akademik</buttonto>
-        <buttonto type="button" class="buttonto buttonto1" onclick="openCity(event, 'BNA')">Bisnis Non - Akademik</buttonto> 
-        <buttonto type="button" class="buttonto buttonto1" onclick="openCity(event, 'TK')">Terbuka Kerjasama</buttonto>
-    </div>  -->
+    <div class="row">
+        <div class="col-lg-4">
+            <form class="nosubmit">
+                <input class="nosubmit" type="search" placeholder="Search...">
+            </form>
+        </div>
+        <div class="col-lg-8">
+            <div class="tab">
+                <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'SUB')" id="menu0">Semua Unit Bisnis</btnto>
+                <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'BA')" id="menu1">Bisnis Akademik</btnto>
+                <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'BNA')" id="menu2">Bisnis Non - Akademik</btnto>
+                <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'TK')" id="menu3">Terbuka Kerjasama</btnto> 
+            </div>
+        </div>
+    </div> 
     <div class="tabcontent" id="SUB">
         <!-- isi konten  -->
         <div class="container-fluid pt-5">
@@ -172,8 +151,13 @@
 </div>
 
 <script>
+    $(document).ready(function() {
+        $("#menu0").addClass("active");
+        document.getElementById("SUB").style.display = "block";
+    });
     function openCity(evt, cityName) {
       var i, tabcontent, tablinks;
+      var a = ['menu0','menu1','menu2','menu3'];
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
@@ -183,7 +167,15 @@
         tablinks[i].className = tablinks[i].className.replace(" active", "");
       }
       document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += " active";
-    }
-    document.getElementById("defaultOpen").click();
-    </script>
+      a.forEach((el,id)=>{
+        if(evt.target.id == el)
+        {
+            $("#"+el).addClass("active");
+        }
+        else
+        {
+            $("#"+el).removeClass("active");
+        }
+      })
+    } 
+</script>

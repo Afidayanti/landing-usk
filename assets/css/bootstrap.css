@@ -9731,10 +9731,7 @@ input[type="button"].btn-block {
 
 
 
-.card {
-
-  
-
+.card { 
   margin-bottom: 3rem;
 
   position: relative;
@@ -9997,7 +9994,13 @@ input[type="button"].btn-block {
 
 }
 
-
+.gambarkerja{
+  width: 100%;
+  height: auto;
+  display: grid;
+  align-items: center;
+  
+}
 
 .card-img,
 
@@ -10013,9 +10016,7 @@ input[type="button"].btn-block {
 
   border-radius: 15px;
 
-}
-
-
+} 
 
 .card-img,
 
@@ -22314,3 +22315,7 @@ dt {
  }
 
   }
+
+
+ 
+   

@@ -11,11 +11,11 @@
     </div>
     <div class="col-lg-8">
       <div class="tab">
-        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'BT')" id="defaultOpen">Berita Terbaru</btnto>
-        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'ARC')">ARC</btnto>
-        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'UP')">UPT Percetakan</btnto> 
-        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'ADD')">AAC Dayan Dawood</btnto>
-        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'RSP')">RSP Prince Nayef</btnto>
+        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'BT')"  id="menu11">Berita Terbaru</btnto>
+        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'ARC')"  id="menu12">ARC</btnto>
+        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'UP')"  id="menu13">UPT Percetakan</btnto> 
+        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'ADD')"  id="menu14">AAC Dayan Dawood</btnto>
+        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'RSP')"  id="menu15">RSP Prince Nayef</btnto>
       </div>
     </div>
   </div>
@@ -431,19 +431,31 @@
 
 </div>
   <script>
+   $(document).ready(function() {
+        $("#menu11").addClass("active");
+        document.getElementById("BT").style.display = "block";
+    });
     function openCity(evt, cityName) {
       var i, tabcontent, tablinks;
+      var a = ['menu11','menu12','menu13','menu14','menu15'];
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
       }
-
       tablinks = document.getElementsByClassName("tablinks");
       for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
       }
       document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += " active";
-    }
-    document.getElementById("defaultOpen").click();
-  </script>
+      a.forEach((el,id)=>{
+        if(evt.target.id == el)
+        {
+            $("#"+el).addClass("active");
+        }
+        else
+        {
+            $("#"+el).removeClass("active");
+        }
+      })
+    } 
+</script>

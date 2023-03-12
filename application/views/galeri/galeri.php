@@ -1,177 +1,54 @@
-<article>
-<div class="jumbotron">  
+    <article>
+         <div class="jumbotron">  
             <h1>Gallery</h1>
         </div>
         <div class="container-fluid pt-5">
-            <div class="row">
-
+            <div class="row"> 
                 <div class="col-lg-4">
-
                     <form class="nosubmit">
-
                         <input class="nosubmit" type="search" placeholder="Search...">
-
                     </form>
-
                 </div>
-
                 <div class="col-lg-8">
-
                     <div class="tab">
-
-                        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'GP')" id="defaultOpen">Galeri Produk</btnto>
-
-                        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'KG')">Kegiatan</btnto>
-
-                        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'AS')">Asset</btnto>  
-
+                        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'GP')" id="menu1a">Galeri Produk</btnto>
+                        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'KG')" id="menu1b">Kegiatan</btnto>
+                        <btnto type="button" class="btnto buttwo1" onclick="openCity(event, 'AS')" id="menu1c">Asset</btnto>  
                     </div>
-
                 </div>
-            </div>
-        <?php foreach ($getAlldataGaleri as $g) {
-        } ?>
-        <div class="card pt-5">
-            <img class="card-img" src="<?php echo base_url('assets/img/produk6.JPG') ?>" alt="Card image"> 
-            
-            <!--  id="myImg" -->
-        </div>
-
-        <div class="row">
-            <div class="col-sm-8"> 
-                <div class="card">
-                     <img class="card-img gamgaleri" src="<?php echo base_url('assets/img/produk2.JPG') ?>" alt="Card image">
+            </div>  
+                <!-- <?php foreach ($getAlldataGaleri as $g) { ?>
+                 
+                <?php } ?> -->
+                
+            <div class="tabcontent" id="GP">
+            <hr class="hr-text" data-content="Asset">         
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="containerbarunya">
+                            <img class="card-img-top picbis" src="<?php echo base_url('assets/img/produk6.JPG') ?>" alt="Card image cap">
+                                <div class="overlay">
+                                    <div class="textbaru">Lorem
+                                    </div>
+                                </div>  
+                        </div>
+                    </div>
                 </div> 
             </div>
-            <div class="col-sm-4"> 
-                <div class="card">
-                     <img class="card-img gamgaleri" src="<?php echo base_url('assets/img/produk5.JPG') ?>"   style="object-fit: cover;" alt="Card image">
-                </div> 
-            </div>
-        </div>
-
-        <hr class="hr-text" data-content="Galeri Produk">
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/produk1.JPG') ?>" alt="Card image cap">
-                
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/produk3.JPG') ?>" alt="Card image cap">
-                
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/produk9.JPG') ?>" alt="Card image cap">
-                
-            </div>
-        </div>
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/produk10.JPG') ?>" alt="Card image cap">
-                
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/produk5.JPG') ?>" alt="Card image cap">
-                
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/produk11.JPG') ?>" alt="Card image cap">
-                
-            </div>
-        </div>
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/produk8.JPG') ?>" alt="Card image cap">
-                
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/produk7.JPG') ?>" alt="Card image cap">
-                
-            </div>
-            <div class="card">
-                <!-- <img class="card-img-top" src="<?php echo base_url('assets/img/produk.JPG') ?>" alt="Card image cap">
-                 -->
-            </div>
-        </div>
-
-        <hr class="hr-text" data-content="Kegiatan">
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/kegiatan1.jpg') ?>" alt="Card image cap">
-                
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/kegiatan2.jpg') ?>" alt="Card image cap">
-                
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/kegiatan3.jpg') ?>" alt="Card image cap">
-                
-            </div>
-        </div>
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="<?php echo base_url('assets/img/kegiatan4.jpg') ?>" alt="Card image cap">
-                
-            </div>
-            <div class="card">
-                <!-- <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
-                 -->
-            </div>
-            <div class="card">
-                <!-- <img class="card-img-top" src="<?php echo base_url('assets/img/31.png') ?>" alt="Card image cap">
-                 -->
-            </div>
-        </div>
-
-        <hr class="hr-text" data-content="Asset">
-
-        <div class="row">
-            <div class="col-sm-4">
-                
-            </div>
+            <div class="clearfix p-5 m-5"></div>
         </div>
 
 
 
 
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetsabang.jpg') ?>" alt="Card image cap">
-                
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01"> 
             </div>
-            <div class="card">
-                <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetlamte.jpg') ?>" alt="Card image cap">
-                
-            </div>
-            <div class="card">
-                <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetlam.jpg') ?>" alt="Card image cap">
-                
-            </div>
-        </div>
-        <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetgajah.jpg') ?>" alt="Card image cap">
-                
-            </div>
-            <div class="card">
-                <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetule.jpg') ?>" alt="Card image cap">
-                
-            </div>
-            <div class="card">
-                <img class="card-img-top aset" src="<?php echo base_url('assets/img/asetule2.jpg') ?>" alt="Card image cap">
-                
-            </div>
-        </div>
-        <div class="clearfix p-5 m-5"></div>
-    </div>
-<!-- The Modal -->
-<div id="myModal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="img01"> 
-</div>
-<div class="clearfix p-5"></div>
-</article>
+            <div class="clearfix p-5"></div>
+    </article>
+
 <script>
 // Get the modal
 var modal = document.getElementById("myModal");
@@ -193,4 +70,34 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
 modal.style.display = "none";
 }
+</script>
+
+<script>
+   $(document).ready(function() {
+        $("#menu1a").addClass("active");
+        document.getElementById("GP").style.display = "block";
+    });
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      var a = ['menu1a','menu1b','menu1c'];
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      a.forEach((el,id)=>{
+        if(evt.target.id == el)
+        {
+            $("#"+el).addClass("active");
+        }
+        else
+        {
+            $("#"+el).removeClass("active");
+        }
+      })
+    } 
 </script>
