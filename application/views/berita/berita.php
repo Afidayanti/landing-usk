@@ -55,6 +55,9 @@
 
       <div class="row p-5">   
       <?php foreach ($getAllBerita as $b) { ?>
+        <?php if ($b->hot_news == 0) { ?>
+          
+        
         <div class="col-lg-4">
             <img src="<?=base_url()?>foto/<?=$b->foto;?>" class="card-img-top " alt="..."  style="border-top-right-radius: 30px; width: 100%; height: auto;">
               <h5 class="card-title"><b><a href="<?php echo base_url('berita/detail');?>/<?=$b->id_berita?>"><?=$b->judul?></a></b></h5>
@@ -73,6 +76,7 @@
                     <?=substr($b->berita, 0, 600)?><a href="">  Selengkapnya......</a></small>
                 </div>
         </div>
+        <?php } ?>
         <?php } ?> 
       </div>
 

@@ -12,13 +12,13 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
     <link rel="icon" href="<?php echo base_url('assets/img/bpuic.png') ?>" type="image/x-icon">
     <!-- Required Fremwork -->
-    <link rel="stylesheet" type="text/css" href="assetsAdmin/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assetsAdmin/css/bootstrap/css/bootstrap.min.css">
     <!-- themify-icons line icon -->
-    <link rel="stylesheet" type="text/css" href="assetsAdmin/icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assetsAdmin/icon/themify-icons/themify-icons.css">
     <!-- ico font -->
-    <link rel="stylesheet" type="text/css" href="assetsAdmin/icon/icofont/css/icofont.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assetsAdmin/icon/icofont/css/icofont.css">
     <!-- Style.css -->
-    <link rel="stylesheet" type="text/css" href="assetsAdmin/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assetsAdmin/css/style.css">
 </head>
 
 <body class="fix-menu">
@@ -86,16 +86,16 @@
         <!-- end of container-fluid -->
     </section>
     
-    <script type="text/javascript" src="assetsAdmin/js/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="assetsAdmin/js/jquery-ui/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="assetsAdmin/js/popper.js/popper.min.js"></script>
-    <script type="text/javascript" src="assetsAdmin/js/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assetsAdmin/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assetsAdmin/js/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assetsAdmin/js/popper.js/popper.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assetsAdmin/js/bootstrap/js/bootstrap.min.js"></script>
     <!-- jquery slimscroll js -->
-    <script type="text/javascript" src="assetsAdmin/js/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assetsAdmin/js/jquery-slimscroll/jquery.slimscroll.js"></script>
     <!-- modernizr js -->
-    <script type="text/javascript" src="assetsAdmin/js/modernizr/modernizr.js"></script>
-    <script type="text/javascript" src="assetsAdmin/js/modernizr/css-scrollbars.js"></script>
-    <script type="text/javascript" src="assetsAdmin/js/common-pages.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assetsAdmin/js/modernizr/modernizr.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assetsAdmin/js/modernizr/css-scrollbars.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assetsAdmin/js/common-pages.js"></script>
     <!-- <script>
 
          $(".alert").hide(); 

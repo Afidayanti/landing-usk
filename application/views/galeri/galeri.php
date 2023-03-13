@@ -22,6 +22,25 @@
                 <?php } ?> -->
                 
             <div class="tabcontent" id="GP">
+            <?php foreach ($getAlldataGaleri as $g) { ?>
+            <hr class="hr-text" data-content="Asset">         
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="containerbarunya">
+                            <img class="card-img-top picbis" src="<?=base_url()?>foto/<?=$g->foto_galeri;?>" alt="Card image cap">
+                                <div class="overlay">
+                                    <div class="textbaru"><?=$g->keterangan_galeri?>
+                                    </div>
+                                </div>  
+                        </div>
+                    </div>
+                </div> 
+                <?php } ?>
+            </div>
+
+             <div class="tabcontent" id="KG">
+                <?php foreach ($getAlldataGaleri as $g) { ?>
+                    <?php if ($g->kategori_galeri == 2) { ?>
             <hr class="hr-text" data-content="Asset">         
                 <div class="row">
                     <div class="col-sm-4">
@@ -34,7 +53,30 @@
                         </div>
                     </div>
                 </div> 
+                <?php } ?>
+                <?php } ?>
             </div>
+
+
+             <div class="tabcontent" id="AS">
+                <?php foreach ($getAlldataGaleri as $g) { ?>
+                     <?php if ($g->kategori_galeri == 3) { ?>
+            <hr class="hr-text" data-content="Asset">         
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="containerbarunya">
+                            <img class="card-img-top picbis" src="<?php echo base_url('assets/img/produk6.JPG') ?>" alt="Card image cap">
+                                <div class="overlay">
+                                    <div class="textbaru">Lorem
+                                    </div>
+                                </div>  
+                        </div>
+                    </div>
+                </div> 
+                <?php } ?>
+                <?php } ?>
+            </div>
+            
             <div class="clearfix p-5 m-5"></div>
         </div>
 
